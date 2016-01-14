@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCB430E41C0725A200C46BAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB430E31C0725A200C46BAD /* main.m */; };
+		CCB430E71C0725A200C46BAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB430E61C0725A200C46BAD /* AppDelegate.m */; };
+		CCB430EA1C0725A200C46BAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB430E91C0725A200C46BAD /* ViewController.m */; };
+		CCB430ED1C0725A200C46BAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB430EB1C0725A200C46BAD /* Main.storyboard */; };
+		CCB430EF1C0725A200C46BAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB430EE1C0725A200C46BAD /* Images.xcassets */; };
+		CCB430F21C0725A200C46BAD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB430F01C0725A200C46BAD /* LaunchScreen.xib */; };
+		CCB430FE1C0725A200C46BAD /* _______TabBarController_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB430FD1C0725A200C46BAD /* _______TabBarController_Tests.m */; };
+		CCB431091C07260400C46BAD /* QYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB431081C07260400C46BAD /* QYTabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCB430F81C0725A200C46BAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCB430D61C0725A200C46BAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB430DD1C0725A200C46BAD;
+			remoteInfo = "选项卡(继承与TabBarController)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCB430DE1C0725A200C46BAD /* 选项卡(继承与TabBarController).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "选项卡(继承与TabBarController).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB430E21C0725A200C46BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB430E31C0725A200C46BAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCB430E51C0725A200C46BAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCB430E61C0725A200C46BAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCB430E81C0725A200C46BAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCB430E91C0725A200C46BAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCB430EC1C0725A200C46BAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCB430EE1C0725A200C46BAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCB430F11C0725A200C46BAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CCB430F71C0725A200C46BAD /* 选项卡(继承与TabBarController)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "选项卡(继承与TabBarController)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB430FC1C0725A200C46BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB430FD1C0725A200C46BAD /* _______TabBarController_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______TabBarController_Tests.m"; sourceTree = "<group>"; };
+		CCB431071C07260400C46BAD /* QYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYTabBarController.h; sourceTree = "<group>"; };
+		CCB431081C07260400C46BAD /* QYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYTabBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCB430DB1C0725A200C46BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB430F41C0725A200C46BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCB430D51C0725A200C46BAD = {
+			isa = PBXGroup;
+			children = (
+				CCB430E01C0725A200C46BAD /* 选项卡(继承与TabBarController) */,
+				CCB430FA1C0725A200C46BAD /* 选项卡(继承与TabBarController)Tests */,
+				CCB430DF1C0725A200C46BAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCB430DF1C0725A200C46BAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCB430DE1C0725A200C46BAD /* 选项卡(继承与TabBarController).app */,
+				CCB430F71C0725A200C46BAD /* 选项卡(继承与TabBarController)Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCB430E01C0725A200C46BAD /* 选项卡(继承与TabBarController) */ = {
+			isa = PBXGroup;
+			children = (
+				CCB430E51C0725A200C46BAD /* AppDelegate.h */,
+				CCB430E61C0725A200C46BAD /* AppDelegate.m */,
+				CCB430E81C0725A200C46BAD /* ViewController.h */,
+				CCB430E91C0725A200C46BAD /* ViewController.m */,
+				CCB430EB1C0725A200C46BAD /* Main.storyboard */,
+				CCB431071C07260400C46BAD /* QYTabBarController.h */,
+				CCB431081C07260400C46BAD /* QYTabBarController.m */,
+				CCB430EE1C0725A200C46BAD /* Images.xcassets */,
+				CCB430F01C0725A200C46BAD /* LaunchScreen.xib */,
+				CCB430E11C0725A200C46BAD /* Supporting Files */,
+			);
+			path = "选项卡(继承与TabBarController)";
+			sourceTree = "<group>";
+		};
+		CCB430E11C0725A200C46BAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCB430E21C0725A200C46BAD /* Info.plist */,
+				CCB430E31C0725A200C46BAD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCB430FA1C0725A200C46BAD /* 选项卡(继承与TabBarController)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CCB430FD1C0725A200C46BAD /* _______TabBarController_Tests.m */,
+				CCB430FB1C0725A200C46BAD /* Supporting Files */,
+			);
+			path = "选项卡(继承与TabBarController)Tests";
+			sourceTree = "<group>";
+		};
+		CCB430FB1C0725A200C46BAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCB430FC1C0725A200C46BAD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCB430DD1C0725A200C46BAD /* 选项卡(继承与TabBarController) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB431011C0725A200C46BAD /* Build configuration list for PBXNativeTarget "选项卡(继承与TabBarController)" */;
+			buildPhases = (
+				CCB430DA1C0725A200C46BAD /* Sources */,
+				CCB430DB1C0725A200C46BAD /* Frameworks */,
+				CCB430DC1C0725A200C46BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "选项卡(继承与TabBarController)";
+			productName = "选项卡(继承与TabBarController)";
+			productReference = CCB430DE1C0725A200C46BAD /* 选项卡(继承与TabBarController).app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCB430F61C0725A200C46BAD /* 选项卡(继承与TabBarController)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB431041C0725A200C46BAD /* Build configuration list for PBXNativeTarget "选项卡(继承与TabBarController)Tests" */;
+			buildPhases = (
+				CCB430F31C0725A200C46BAD /* Sources */,
+				CCB430F41C0725A200C46BAD /* Frameworks */,
+				CCB430F51C0725A200C46BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCB430F91C0725A200C46BAD /* PBXTargetDependency */,
+			);
+			name = "选项卡(继承与TabBarController)Tests";
+			productName = "选项卡(继承与TabBarController)Tests";
+			productReference = CCB430F71C0725A200C46BAD /* 选项卡(继承与TabBarController)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCB430D61C0725A200C46BAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = hnqingyun.com;
+				TargetAttributes = {
+					CCB430DD1C0725A200C46BAD = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CCB430F61C0725A200C46BAD = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CCB430DD1C0725A200C46BAD;
+					};
+				};
+			};
+			buildConfigurationList = CCB430D91C0725A200C46BAD /* Build configuration list for PBXProject "选项卡(继承与TabBarController)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCB430D51C0725A200C46BAD;
+			productRefGroup = CCB430DF1C0725A200C46BAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCB430DD1C0725A200C46BAD /* 选项卡(继承与TabBarController) */,
+				CCB430F61C0725A200C46BAD /* 选项卡(继承与TabBarController)Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCB430DC1C0725A200C46BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB430ED1C0725A200C46BAD /* Main.storyboard in Resources */,
+				CCB430F21C0725A200C46BAD /* LaunchScreen.xib in Resources */,
+				CCB430EF1C0725A200C46BAD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB430F51C0725A200C46BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCB430DA1C0725A200C46BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB430EA1C0725A200C46BAD /* ViewController.m in Sources */,
+				CCB431091C07260400C46BAD /* QYTabBarController.m in Sources */,
+				CCB430E71C0725A200C46BAD /* AppDelegate.m in Sources */,
+				CCB430E41C0725A200C46BAD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB430F31C0725A200C46BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB430FE1C0725A200C46BAD /* _______TabBarController_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCB430F91C0725A200C46BAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCB430DD1C0725A200C46BAD /* 选项卡(继承与TabBarController) */;
+			targetProxy = CCB430F81C0725A200C46BAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCB430EB1C0725A200C46BAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB430EC1C0725A200C46BAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCB430F01C0725A200C46BAD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB430F11C0725A200C46BAD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCB430FF1C0725A200C46BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCB431001C0725A200C46BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCB431021C0725A200C46BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "选项卡(继承与TabBarController)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCB431031C0725A200C46BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "选项卡(继承与TabBarController)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCB431051C0725A200C46BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "选项卡(继承与TabBarController)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/选项卡(继承与TabBarController).app/选项卡(继承与TabBarController)";
+			};
+			name = Debug;
+		};
+		CCB431061C0725A200C46BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "选项卡(继承与TabBarController)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/选项卡(继承与TabBarController).app/选项卡(继承与TabBarController)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCB430D91C0725A200C46BAD /* Build configuration list for PBXProject "选项卡(继承与TabBarController)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB430FF1C0725A200C46BAD /* Debug */,
+				CCB431001C0725A200C46BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB431011C0725A200C46BAD /* Build configuration list for PBXNativeTarget "选项卡(继承与TabBarController)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB431021C0725A200C46BAD /* Debug */,
+				CCB431031C0725A200C46BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCB431041C0725A200C46BAD /* Build configuration list for PBXNativeTarget "选项卡(继承与TabBarController)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB431051C0725A200C46BAD /* Debug */,
+				CCB431061C0725A200C46BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCB430D61C0725A200C46BAD /* Project object */;
+}

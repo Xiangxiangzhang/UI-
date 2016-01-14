@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="8il-73-MeQ" appends="YES" id="kVa-VA-F4S"/>
+                            <outletCollection property="gestureRecognizers" destination="vbf-86-rP3" appends="YES" id="VjO-oE-aAZ"/>
+                            <outletCollection property="gestureRecognizers" destination="RU7-r8-QVX" appends="YES" id="fOt-eZ-M0K"/>
+                            <outletCollection property="gestureRecognizers" destination="FIw-Fb-W0k" appends="YES" id="NJJ-SI-QfT"/>
+                            <outletCollection property="gestureRecognizers" destination="tvi-fT-HvR" appends="YES" id="NHc-9Q-NWF"/>
+                            <outletCollection property="gestureRecognizers" destination="BEq-Yn-L6M" appends="YES" id="vQO-h0-QLl"/>
+                            <outletCollection property="gestureRecognizers" destination="kMy-Z1-dD4" appends="YES" id="2dy-P3-lcY"/>
+                        </connections>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="8il-73-MeQ">
+                    <connections>
+                        <action selector="singleTap:" destination="BYZ-38-t0r" id="Low-Br-zaW"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer numberOfTapsRequired="2" id="vbf-86-rP3">
+                    <connections>
+                        <action selector="doubleTap:" destination="BYZ-38-t0r" id="vKa-pl-9Ds"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <pinchGestureRecognizer id="RU7-r8-QVX">
+                    <connections>
+                        <action selector="pinchAction:" destination="BYZ-38-t0r" id="NvA-Wv-w09"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="FIw-Fb-W0k">
+                    <connections>
+                        <action selector="swipeAction:" destination="BYZ-38-t0r" id="B1l-HC-8Ld"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <rotationGestureRecognizer id="Dv0-DZ-hqr">
+                    <connections>
+                        <action selector="rotationAction:" destination="BYZ-38-t0r" id="y4r-ow-fHM"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="tvi-fT-HvR">
+                    <connections>
+                        <action selector="longPressAction:" destination="BYZ-38-t0r" id="tWJ-T1-FtF"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="BEq-Yn-L6M">
+                    <connections>
+                        <action selector="panAction:" destination="BYZ-38-t0r" id="yeo-1A-8S2"/>
+                    </connections>
+                </panGestureRecognizer>
+                <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="kMy-Z1-dD4">
+                    <connections>
+                        <action selector="edgePanAction:" destination="BYZ-38-t0r" id="5FZ-rI-F6f"/>
+                    </connections>
+                </screenEdgePanGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="286.5" y="257.5"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,2317 @@
+    1  ls
+    2  cd Desktop
+    3  ls
+    4  cd 1510
+    5  ls
+    6  cd 20150919
+    7  cd 20150913
+    8  cd 20150918
+    9  ls
+   10  ls -lrt
+   11  vi thirdApp.c
+   12  ls
+   13  cd /Volumes
+   14  ls
+   15  cd iOSDev
+   16  ls
+   17  open .
+   18  ls
+   19  cd Desktop
+   20  ls
+   21  cd 1510
+   22  ls
+   23  cd 20150918
+   24  ls
+   25  vi addOperator.c
+   26  cd Desktop
+   27  ls
+   28  cd 1510
+   29  ls
+   30  cd 20150918
+   31  ls
+   32  gcc -o oper.exe addOperator.c
+   33  ls -lrt
+   34  ./oper.exe
+   35  gcc -o oper.exe addOperator.c
+   36  ./oper.exe
+   37  vi subOperator.c
+   38  cd ..
+   39  ls
+   40  vi main_template.c
+   41  cd 20150918
+   42  ls
+   43  rm subOperator.c
+   44  cp ../main_template.c subOperator.c
+   45  vi subOperator.c
+   46  ls
+   47  gcc subOperator.c
+   48  ls -lrt
+   49  ./a.out
+   50  gcc subOperator.c
+   51  ./a
+   52  ./a.out
+   53  gcc subOperator.c
+   54  ./a.out
+   55  gcc subOperator.c
+   56  ls
+   57  gcc -g subOperator.c
+   58  ls -lrt
+   59  lldb a.out
+   60  la
+   61  ls
+   62  gcc -o subOperator subOperator.c
+   63  lldb subOperator
+   64  gcc -g -o subOperator subOperator.c
+   65  ls -lrt
+   66  lldb subOperator
+   67  exit
+   68  ls
+   69  cd Desktop
+   70  ls
+   71  cd 1510
+   72  ls
+   73  cd 20150918
+   74  ls
+   75  cd 
+   76  ls
+   77  ls -al
+   78  vi .vimrc
+   79  ls
+   80  ls -lrt
+   81  rm *~
+   82  ls
+   83  cp ../main_template.c selfAdd.c
+   84  vi selfAdd.c
+   85  cd Desktop
+   86  ls
+   87  cd 1510
+   88  ls
+   89  cd 20150918
+   90  ls
+   91  gcc -o selfAdd selfAdd.c
+   92  ls
+   93  ./selfAdd
+   94  gcc -o selfAdd selfAdd.c
+   95  ./selfAdd
+   96  gcc -o selfAdd selfAdd.c
+   97  ./selfAdd
+   98  gcc -o selfAdd selfAdd.c
+   99  ./se
+  100  ./selfAdd
+  101  gcc -g -o selfAdd selfAdd.c
+  102  ls -lrt
+  103  lldb selfAdd
+  104  ls
+  105  cp ../main_template.c beforeSelfAdd.c
+  106  vi beforeSelfAdd.c
+  107  gcc -o beforeSelfAdd beforeSelfAdd.c
+  108  ./beforeSelfAdd
+  109  cp ../main_template.c diffSelfAdd.c
+  110  vi diffSelfAdd.c
+  111  gcc -o diffSelfAdd diffSelfAdd.c
+  112  ./diffSelfAdd
+  113  gcc -o diffSelfAdd diffSelfAdd.c
+  114  ./diffSelfAdd
+  115  ls
+  116  cd Desktop
+  117  ls
+  118  cd 1510
+  119  ls
+  120  mkdir 20150920
+  121  cd 20150920
+  122  ls
+  123  cp ../main_template.c leftAndRight.c
+  124  vi leftAndRight.c
+  125  cd d3
+  126  cd d
+  127  cd Desktop
+  128  ls
+  129  cd 1510
+  130  ls
+  131  cd 20150920
+  132  ls
+  133  gcc -o leftAndRight leftAndRight.c
+  134  ./leftAndRight
+  135  gcc -o leftAndRight leftAndRight.c
+  136  cp ../main_template.c addAndEqual.c
+  137  vi addAndEqual.c
+  138  ls
+  139  gcc -o addAndEqual addAndEqual.c
+  140  ./addAndEqual
+  141  gcc -o addAndEqual addAndEqual.c
+  142  ls
+  143  ls -lrt 
+  144  ls -lrt
+  145  gcc -o addAndEqual addAndEqual.c
+  146  ./addAndEqual
+  147  gcc -o addAndEqual addAndEqual.c
+  148  ./addAndEqual
+  149  cp ../main_template.c multDemo.c
+  150  vi multDemo.c
+  151  gcc -o multDemo multDemo.c
+  152  ./multDemo
+  153  gcc -o multDemo multDemo.c
+  154  ./multDemo
+  155  gcc -o multDemo multDemo.c
+  156  say division
+  157  ls -lrt
+  158  rm multDemo
+  159  gcc -o multDemo multDemo.c
+  160  ls -lrt
+  161  multDemo.c
+  162  ./multDemo
+  163  gcc -o multDemo multDemo.c
+  164  ./multDemo
+  165  cp ../main_template.c orderOfOprator.c
+  166  vi orderOfOprator.c
+  167  gcc -o orderOfOprator orderOfOprator.c
+  168  ./orderOfOprator
+  169  gcc -o orderOfOprator orderOfOprator.c
+  170  ./orderOfOprator
+  171  gcc -o orderOfOprator orderOfOprator.c
+  172  ./orderOfOprator
+  173  cp ../main_template.c example.c
+  174  vi example.c
+  175  gcc -o example example.c
+  176  ./example
+  177  cp ../main_template.c converDemo.c
+  178  vi converDemo.c
+  179  gcc -o converDemo converDemo.c
+  180  ./converDemo
+  181  csh
+  182  bash
+  183  ./converDemo
+  184  gcc -o converDemo converDemo.c
+  185  ./converDemo
+  186  gcc -o converDemo converDemo.c
+  187  ./converDemo
+  188  gcc -o converDemo converDemo.c
+  189  ./converDemo
+  190  gcc -o converDemo converDemo.c
+  191  ./converDemo
+  192  gcc -o converDemo converDemo.c
+  193  ./converDemo
+  194  gcc -o converDemo converDemo.c
+  195  ./converDemo
+  196  gcc -o converDemo converDemo.c
+  197  ./converDemo
+  198  gcc -o converDemo converDemo.c
+  199  ./converDemo
+  200  gcc -o converDemo converDemo.c
+  201  ./converDemo
+  202  gcc -o converDemo converDemo.c
+  203  ./converDemo
+  204  gcc -o converDemo converDemo.c
+  205  ./converDemo
+  206  gcc -o converDemo converDemo.c
+  207  ./converDemo
+  208  cp ../main_template.c badStyle.c
+  209  vi badStyle.c
+  210  ls
+  211  gcc -o badStyle badStyle.c
+  212  ./badStyle
+  213  gcc -o badStyle badStyle.c
+  214  ./badStyle
+  215  gcc -o badStyle badStyle.c
+  216  ./badStyle
+  217  gcc -o badStyle badStyle.c
+  218  ./badStyle
+  219  gcc -o badStyle badStyle.c
+  220  ./badStyle
+  221  ls
+  222  vi example
+  223  vi example.c
+  224  vi leftAndRight
+  225  vi leftAndRight.c
+  226  vi addAndEqual.c
+  227  vi badStyle.c
+  228  gcc -E badStyle.c > badStyle.i
+  229  vi badStyle.i
+  230  cp ../main_template.c ifStatement.c
+  231  vi ifStatement.c
+  232  gcc -o ifStatement ifStatement.c
+  233  ./ifStatement
+  234  gcc -o ifStatement ifStatement.c
+  235  ./ifStatement
+  236  gcc -o ifStatement ifStatement.c
+  237  ./ifStatement
+  238  gcc -o ifStatement ifStatement.c
+  239  ./ifStatement
+  240  gcc -o ifStatement ifStatement.c
+  241  ./ifStatement
+  242  ls
+  243  vi badStyle.i
+  244  cd /Applications
+  245  ls
+  246  cd Xcode.app
+  247  ls
+  248  cd Contents
+  249  ls
+  250  cd Developer
+  251  ls
+  252  cd Platforms
+  253  ls
+  254  cd MacOSX.platform
+  255  ls
+  256  cd Developer
+  257  ls
+  258  cd SDKs
+  259  ls
+  260  cd MacOSX10.10.sdk
+  261  ls
+  262  cd usr
+  263  ls
+  264  cd include
+  265  ls
+  266  vi stdbool.h
+  267  gcc -o ifStatement ifStatement.c
+  268  ./ifStatement
+  269  cp ../main_template.c compairDemo.c
+  270  vi compairDemo.c
+  271  gcc -o compairDemo compairDemo.c
+  272  ./compairDemo
+  273  gcc -o compairDemo compairDemo.c
+  274  ./compairDemo
+  275  cp ../main_template.c scanfDemo.c
+  276  vi scanfDemo.c
+  277  gcc -o scanfDemo scanfDemo.c
+  278  ./scanfDemo
+  279  cd Desktop
+  280  ls
+  281  rm *.png
+  282  ls
+  283  cd 1510
+  284  ls
+  285  cd 20150920
+  286  ls
+  287  vi compairDemo.c
+  288  cp ../main_template.c compaiWithScanf.c
+  289  vi compaiWithScanf.c
+  290  cd des
+  291  \tcd Desktop
+  292  ,ls
+  293  cd 1510
+  294  ls
+  295  cd 20150920
+  296  ls
+  297  gcc -o compairWithScanf compaiWithScanf.c
+  298  ./compai
+  299  ./compaiWithScanf.c
+  300  ./compaiWithScanf 
+  301  gcc -o compairWithScanf compaiWithScanf.c
+  302  ./compaiWithScanf
+  303  ls -lrt
+  304  ./compairWithScanf
+  305  cp ../main_template.c notOper.c
+  306  vi notOper.c
+  307  gcc -o notOper notOper.c
+  308  ./notOper
+  309  man ascii
+  310  cd Desktop
+  311  ls
+  312  cd 1510
+  313  ls
+  314  mkdir 20150921
+  315  cd 20150921
+  316  ls
+  317  cp ../main_template.c asciiDemo.c
+  318  vi asciiDemo.c
+  319  cd Desktop
+  320  ls
+  321  cd 1510
+  322  ls
+  323  cd 20150921
+  324  ls
+  325  gcc -o asciiDemo asciiDemo.c
+  326  ./asciiDemo
+  327  ls
+  328  cp ../main_template.c logicAndDemo.c
+  329  vi logicAndDemo.c
+  330  gcc -o logicAndDemo logicAndDemo.c
+  331  ./logicAndDemo
+  332  gcc -o logicAndDemo logicAndDemo.c
+  333  ./logicAndDemo
+  334  gcc -o logicAndDemo logicAndDemo.c
+  335  ./logicAndDemo
+  336  gcc -o logicAndDemo logicAndDemo.c
+  337  ./logicAndDemo
+  338  gcc -o logicAndDemo logicAndDemo.c
+  339  ./logicAndDemo
+  340  cp ../main_template.c composeExpDemo.c
+  341  vi composeExpDemo.c
+  342  gcc -o composeExpDemo composeExpDemo.c
+  343  ./com
+  344  ./composeExpDemo
+  345  cp ../main_template.c ifDemo.c
+  346  vi ifDemo.c
+  347  gcc -o ifDemo ifDemo.c
+  348  ./ifDemo
+  349  gcc -o ifDemo ifDemo.c
+  350  ./ifDemo
+  351  cp ../main_template.c blockCodeDemo.c
+  352  vi blockCodeDemo.c
+  353  gcc -o blockCodeDemo blockCodeDemo.c
+  354  ls -lrt
+  355  ./blockCodeDemo
+  356  gcc -o blockCodeDemo blockCodeDemo.c
+  357  ./blockCodeDemo
+  358  cd Desktop
+  359  ls
+  360  cd 1`
+  361  cd 1510
+  362  ls
+  363  d 20150921
+  364  ls
+  365  cd 20150921
+  366  ls
+  367  cp ../main_template.c whileLoopDemo.c
+  368  vi whileLoopDemo.c
+  369  pwd
+  370  cd Desktop
+  371  cd 1510
+  372  ls
+  373  pwd
+  374  cd
+  375  ls -al
+  376  vi .zshrc
+  377  cd
+  378  vi .zshrc
+  379  ls -al
+  380  vi .zshrc
+  381  cd dotfiles
+  382  ls
+  383  ls -al
+  384  vi .zshrc
+  385  rm .zshrc.swp
+  386  vi .zshrc
+  387  cd Desktop
+  388  ls
+  389  cd 1510
+  390  ls
+  391  pwd
+  392  cdcode
+  393  source .zshrc
+  394  cdcode
+  395  pwd
+  396  cd
+  397  pwd
+  398  cdcode
+  399  pwd
+  400  cd
+  401  vi .zshrc
+  402  cdcode
+  403  ;ls
+  404  cd 20150921
+  405  ls
+  406  vi whileLoopDemo.c
+  407  cd 20150921
+  408  ls
+  409  gcc -o whileLoopDemo wi
+  410  gcc -o whileLoopDemo whileLoopDemo.c
+  411  ./whileLoopDemo
+  412  gcc -o whileLoopDemo whileLoopDemo.c
+  413  ./whileLoopDemo
+  414  gcc -o whileLoopDemo whileLoopDemo.c
+  415  ./whileLoopDemo
+  416  gcc -o whileLoopDemo whileLoopDemo.c
+  417  ./whileLoopDemo
+  418  gcc -g -o whileLoopDemo whileLoopDemo.c
+  419  lldb whileLoopDemo
+  420  cp whileLoopDemo.c whileWithBreak.c
+  421  vi whileWithBreak.c
+  422  gcc -o whileWithBreak whileWithBreak.c
+  423  ./whileWithBreak
+  424  gcc -o whileWithBreak whileWithBreak.c
+  425  ./whileWithBreak
+  426  gcc -g whileWithBreak whileWithBreak.c
+  427  gcc -g -o whileWithBreak whileWithBreak.c
+  428  lldb whileWithBreak
+  429  gcc -g -o whileWithBreak whileWithBreak.c
+  430  ./whileWithBreak
+  431  cp whileWithBreak.c whileWithContinue.c
+  432  vi whileWithContinue.c
+  433  gcc -g -o whileWithContinue whileWithContinue.c
+  434  ./whileWithContinue
+  435  gcc -g -o whileWithContinue whileWithContinue.c
+  436  ./whileWithContinue
+  437  lldb whileWithContinue
+  438  cp ../main_template.c loopForEver.c
+  439  vi loopForEver.c
+  440  gcc -o loopForEver loopForEver.c
+  441  ./loopForEver
+  442  cp ../main_template.c forLoop.c
+  443  vi forLoop.c
+  444  gcc -o forLoop forLoop.c
+  445  ./forLoop
+  446  gcc -o forLoop forLoop.c
+  447  ./forLoop
+  448  cp ../main_template.c doWhileLoop.c
+  449  vi doWhileLoop.c
+  450  gcc -o doWhileLoop doWhileLoop.c
+  451  ./doWhileLoop
+  452  gcc -o doWhileLoop doWhileLoop.c
+  453  ./doWhileLoop
+  454  gcc -o doWhileLoop doWhileLoop.c
+  455  ./doWhileLoop
+  456  cp ../main_template.c switchDemo.c
+  457  ls
+  458  vi switchDemo.c
+  459  gcc -o switchDemo switchDemo.c
+  460  ./switchDemo
+  461  gcc -o switchDemo switchDemo.c
+  462  ./switchDemo
+  463  gcc -o switchDemo switchDemo.c
+  464  ./switchDemo
+  465  gcc -o switchDemo switchDemo.c
+  466  ./switchDemo
+  467  gcc -o switchDemo switchDemo.c
+  468  ./switchDemo
+  469  cp ../main_template.c showStar.c
+  470  vi showStar.c
+  471  gcc -o showStar showStar.c
+  472  ./showStar
+  473  rm showStar.c
+  474  ls
+  475  ls 
+  476  ls
+  477  cd Desktop
+  478  ls
+  479  cd 1510/
+  480  ls
+  481  cd 20150922
+  482  ls
+  483  vi testOps.c
+  484  cd Desktop
+  485  ls
+  486  cd 1510/20150922
+  487  ls
+  488  gcc testOps.c -o testOps
+  489  ./testOps
+  490  gcc testOps.c -o testOps
+  491  ./testOps
+  492  gcc testOps.c -o testOps
+  493  ./testOps
+  494  gcc testOps.c -o testOps
+  495  ./testOps
+  496  gcc testOps.c -o testOps
+  497  ./testOps
+  498  gcc testOps.c -o testOps
+  499  ./testOps
+  500  gcc testOps.c -o testOps
+  501  ./testOps
+  502  gcc testOps.c -o testOps
+  503  ./testOps
+  504  gcc testOps.c -o testOps
+  505  ./testOps
+  506  gcc testOps.c -o testOps
+  507  ./testOps
+  508  ls
+  509  vi printStar1.c
+  510  cd Desktop
+  511  ls
+  512  cd cod
+  513  ls
+  514  cd 1510/
+  515  ls
+  516  cd 20150922
+  517  ls
+  518  gcc printStar1.c -o printStar1
+  519  ./printStar1
+  520  gcc printStar1.c -o printStar1
+  521  ./printStar1
+  522  gcc printStar1.c -o printStar1
+  523  ./printStar1
+  524  gcc printStar1.c -o printStar1
+  525  ./printStar1
+  526  gcc printStar1.c -o printStar1
+  527  ./printStar1
+  528  ls
+  529  vi printStar2.cf
+  530  mv printStar2.cf printStar2.c
+  531  vi printStar2.c
+  532  gcc printStar2.c -o printStar2
+  533  vi printStar2.c
+  534  ./printStar2
+  535  gcc printStar2.c -o printStar2
+  536  ./printStar2
+  537  vi printStar2.c
+  538  vi testFunc.c
+  539  cd Desktop
+  540  ls
+  541  cd 1510
+  542  ls
+  543  cd 20150922
+  544  ls
+  545  gcc testFunc.c -o testFunc
+  546  ./testFunc
+  547  gcc testFunc.c -o testFunc
+  548  ./testFunc
+  549  gcc testFunc.c -o testFunc
+  550  ls
+  551  gcc testFunc.c -o testFunc
+  552  ./testFunc
+  553  gcc testFunc.c -o testFunc
+  554  ./testFunc
+  555  ifconfig| grep 192.
+  556  int arr[3] = 10;
+  557  vi testArr.c
+  558  gcc testArr
+  559  ls
+  560  gcc testArr.c -o testArrr
+  561  ls
+  562  ./testArrr
+  563  ifconfig|grep 192.
+  564  q
+  565  q!
+  566  ../../
+  567  ./
+  568  ../../
+  569  ../../../
+  570  ../
+  571  ls
+  572  cd Desktop
+  573  ls
+  574  cd 1510
+  575  ls
+  576  cd 20150922
+  577  ls
+  578  vi testArr.c
+  579  ls
+  580  vi changeVarValue.c
+  581  cd Desktop
+  582  ls
+  583  cd 1510
+  584  ls
+  585  cd 20150922
+  586  ls
+  587  gcc changeVarValue.c -o changeVarValue
+  588  ./changeVarValue
+  589  gcc changeVarValue.c -o changeVarValue
+  590  ./changeVarValue
+  591  vi changeVarValueByPointer.c
+  592  cd Desktop
+  593  ls
+  594  cd 1510
+  595  ls
+  596  cd 20150922
+  597  ls
+  598  gcc changeVarValue2.c -o changeVarValue2
+  599  gcc changeVarValueByPointer.c -o changeVarValueByPointer
+  600  ./changeVarValueByPointer
+  601  ls
+  602  vi testArr.c
+  603  ls
+  604  vi testPointerAndArr.c
+  605  cd D
+  606  cd Desktop
+  607  ls
+  608  cd 1510/20150922
+  609  ls
+  610  gcc testPointerAndArr.c
+  611  ls
+  612  ./a.out
+  613  gcc testPointerAndArr.c
+  614  ./a.out
+  615  gcc testPointerAndArr.c
+  616  ./a.out
+  617  gcc testPointerAndArr.c
+  618  ./a.out
+  619  gcc testPointerAndArr.c
+  620  ./a.out
+  621  gcc testPointerAndArr.c
+  622  ./a.out
+  623  vi copyArr.c
+  624  gcc copyArr.c -o copyArr
+  625  ./copyArr
+  626  vi testCharArr.c
+  627  man ascii
+  628  gcc testCharArr.c -o testCharArr
+  629  ./testCharArr
+  630  man ascii
+  631  gcc testCharArr.c -o testCharArr
+  632  ./testCharArr
+  633  man ascii
+  634  gcc testCharArr.c -o testCharArr
+  635  ./testCharArr
+  636  gcc testCharArr.c -o testCharArr
+  637  ./testCharArr
+  638  gcc testCharArr.c -o testCharArr
+  639  ./testCharArr
+  640  gcc testCharArr.c -o testCharArr
+  641  ./testCharArr
+  642  man ascii
+  643  vi testCharArr.c
+  644  gcc testCharArr.c -o testCharArr
+  645  ./testCharArr
+  646  gcc testCharArr.c -o testCharArr
+  647  ./testCharArr
+  648  gcc testCharArr.c -o testCharArr
+  649  ./testCharArr
+  650  gcc testCharArr.c -o testCharArr
+  651  ./testCharArr
+  652  gcc testCharArr.c -o testCharArr
+  653  ./testCharArr
+  654  gcc testCharArr.c -o testCharArr
+  655  ./testCharArr
+  656  gcc testCharArr.c -o testCharArr
+  657  ./testCharArr
+  658  gcc testCharArr.c -o testCharArr
+  659  ./testCharArr
+  660  gcc testCharArr.c -o testCharArr
+  661  ./testCharArr
+  662  gcc testCharArr.c -o testCharArr
+  663  ./testCharArr
+  664  gcc testCharArr.c -o testCharArr
+  665  ./testCharArr
+  666  gcc testCharArr.c -o testCharArr
+  667  ./testCharArr
+  668  gcc testCharArr.c -o testCharArr
+  669  ./testCharArr
+  670  gcc testCharArr.c -o testCharArr
+  671  ./testCharArr
+  672  gcc testCharArr.c -o testCharArr
+  673  ./testCharArr
+  674  gcc testCharArr.c -o testCharArr
+  675  ./testCharArr
+  676  gcc testCharArr.c -o testCharArr
+  677  ./testCharArr
+  678  ls
+  679  vi testmain.c
+  680  gcc testmain.c -o testmain
+  681  ./testmain
+  682  gcc testmain.c -o testmain
+  683  ./testmain
+  684  gcc testmain.c -o testmain
+  685  ./testmain
+  686  gcc testmain.c -o mycp
+  687  sudo cp mycp /bin
+  688  mycp
+  689  ps aux 
+  690  gcc testmain.c -o mycp
+  691  sudo cp mycp /bin
+  692  mycp
+  693  ps aux 
+  694  kill -9 520
+  695  ps aux | grep 192.
+  696  mycp
+  697  ps aux | grep 192.
+  698  ps aux | grep mycp
+  699  ps aux
+  700  sudo kill -9 2560
+  701  ./mycp
+  702  ps aux
+  703  vi testmain.c
+  704  gcc testmain.c -o mycp
+  705  sudo cp mycp /bin
+  706  mycp a b
+  707  mycp abc 123
+  708  gcc testmain.c -o mycp
+  709  ./mycp abc 123
+  710  gcc testmain.c -o mycp
+  711  ./mycp
+  712  ./mycp abc
+  713  ./mycp abc 123
+  714  vi testMultiArr.c
+  715  gcc testMultiArr.c -o testMultiArr
+  716  ./testMultiArr
+  717  gcc testMultiArr.c -o testMultiArr
+  718  ./testMultiArr
+  719  gcc testMultiArr.c -o testMultiArr
+  720  ./testMultiArr
+  721  gcc testMultiArr.c -o testMultiArr
+  722  ./testMultiArr
+  723  gcc testMultiArr.c -o testMultiArr
+  724  ./testMultiArr
+  725  gcc testMultiArr.c -o testMultiArr
+  726  ./testMultiArr
+  727  history
+  728  ifconfig
+  729  ifconfig | grep 192
+  730  大白   你是谁？
+  731  passwd
+  732  ifconfig |grep 192
+  733  cd Desktop
+  734  ls
+  735  cd 
+  736  ls
+  737  home
+  738  ls home
+  739  say hello
+  740  say goodmoning
+  741  say goodmoning goodmoning
+  742  hellokitty
+  743  say hellokitty
+  744  echo "hello,student" > 1.txt
+  745  ls
+  746  rm 1.txt
+  747  0 1 2 3 4 5 6 7 8 9
+  748  101112....
+  749  0 1
+  750  1011
+  751  10  = 2
+  752  11  = 3
+  753  1111  = 
+  754  26 
+  755  11111111
+  756  vi testMain.c
+  757  gcc testMain.c -o testMain
+  758  ./testMain
+  759  gcc testMain.c -o testMain
+  760  ./testMain
+  761  gcc testMain.c -o testMain
+  762  ls
+  763  pwd
+  764  mv testMain.c ~/Desktop/1509/Code/20151011
+  765  ls
+  766  cd Desktop
+  767  cd 1509/Code/20151011
+  768  ls
+  769  vi testMain.c
+  770  cd Desktop/1509/Code/20151011
+  771  ls
+  772  gcc testMain.c -o testMain
+  773  ls
+  774  ./testMain
+  775  vi testFunc.c
+  776  mv testFunc.c ../
+  777  ls
+  778  cd  ..
+  779  ls
+  780  mv testFunc.c theme.c
+  781  ls
+  782  cd 20151011
+  783  ls
+  784  cp ../theme.c testFunc.c
+  785  vi testFunc.c
+  786  gcc testMain.c
+  787  ls
+  788  gcc testMain.c -o testFunc
+  789  ls
+  790  gcc testFunc.c -o testFunc
+  791  ls
+  792  rm a.out
+  793  ls
+  794  ./testFunc
+  795  gcc testFunc.c -o testFunc
+  796  ./testFunc
+  797  gcc testFunc.c -o testFunc
+  798  ./testFunc
+  799  gcc -g testFunc.c
+  800  ls
+  801  gcc -g testFunc.c -o testFunc
+  802  ls
+  803  rm -rf a.out*
+  804  ls
+  805  lldb testFunc
+  806  cp ../theme.c testVar.c
+  807  vi testVar.c
+  808  gcc testVar.c -o testVar
+  809  ./testVar
+  810  10000010 ＝－2 
+  811  00000000 ＝ 0
+  812  cp ../theme.c testOprator.c
+  813  vi testOprator.c
+  814  gcc testOprator.c -o testOprator
+  815  ./testOprator
+  816  gcc testOprator.c -o testOprator
+  817  ./testOprator
+  818  gcc testOprator.c -o testOprator
+  819  ./testOprator
+  820  gcc testOprator.c -o testOprator
+  821  ./testOprator
+  822  gcc testOprator.c -o testOprator
+  823  ./testOprator
+  824  gcc testOprator.c -o testOprator
+  825  ./testOprator
+  826  cp ../theme.c testEsc.c
+  827  vi testEsc.c \\
+  828  ;
+  829  gcc testOprator.c -o testOprator
+  830  ./testEsc.c
+  831  gcc testEsc.c -o testEsc
+  832  ./testEsc
+  833  gcc testEsc.c -o testEsc
+  834  ./testEsc
+  835  gcc testEsc.c -o testEsc
+  836  ./testEsc
+  837  gcc testEsc.c -o testEsc
+  838  ./testEsc
+  839  gcc testEsc.c -o testEsc
+  840  ./testEsc
+  841  gcc testEsc.c -o testEsc
+  842  ./testEsc
+  843  gcc testEsc.c -o testEsc
+  844  ./testEsc
+  845  0100 result
+  846  0111
+  847  1011
+  848  ls
+  849  ls -l
+  850  cd Desktop/1509/Code/
+  851  mkdir 20151012
+  852  cd 20151012
+  853  ls
+  854  cp ../theme.c testByteOperator.c
+  855  vi testByteOperator.c
+  856  cd Desktop/1509/Code/20151012
+  857  gcc testByteOperator.c -o testByteOperator
+  858  ./testByteOperator
+  859  gcc testByteOperator.c -o testByteOperator
+  860  ./testByteOperator
+  861  gcc testByteOperator.c -o testByteOperator
+  862  ./testByteOperator
+  863  gcc testByteOperator.c -o testByteOperator
+  864  ./testByteOperator
+  865  gcc testByteOperator.c -o testByteOperator
+  866  ./testByteOperator
+  867  gcc testByteOperator.c -o testByteOperator
+  868  ./testByteOperator
+  869  gcc testByteOperator.c -o testByteOperator
+  870  ./testByteOperator
+  871  gcc testByteOperator.c -o testByteOperator
+  872  ./testByteOperator
+  873  gcc testByteOperator.c -o testByteOperator
+  874  ./testByteOperator
+  875  gcc testByteOperator.c -o testByteOperator
+  876  ./testByteOperator
+  877  cd Desktop/1509/Code/20151012
+  878  ls
+  879  cp ../theme.c testIfElse.c
+  880  vi testIfElse.c
+  881  cd Desktop/1509/Code/20151012
+  882  gcc testIfElse.c -o testIfElse
+  883  ./testIfElse
+  884  gcc testIfElse.c -o testIfElse
+  885  ./testIfElse
+  886  gcc testIfElse.c -o testIfElse
+  887  ./testIfElse
+  888  gcc testIfElse.c -o testIfElse
+  889  ./testIfElse
+  890  gcc testIfElse.c -o testIfElse
+  891  ./testIfElse
+  892  cp ../theme.c testExpression.c
+  893  vi testExpression.c
+  894  gcc testIfElse.c -o testIfElse
+  895  gcc testExpression.c -o testExpression
+  896  ./testExpression
+  897  gcc testExpression.c -o testExpression
+  898  ./testExpression
+  899  cd..
+  900  cd ..
+  901  ls
+  902  vi theme.c
+  903  gcc testExpression.c -o testExpression
+  904  cd 20151012
+  905  gcc testExpression.c -o testExpression
+  906  ./testExpression
+  907  gcc testExpression.c -o testExpression
+  908  ./testExpression
+  909  gcc testExpression.c -o testExpression
+  910  ./testExpression
+  911  gcc testExpression.c -o testExpression
+  912  ./testExpression
+  913  gcc testExpression.c -o testExpression
+  914  ./testExpression
+  915  gcc testExpression.c -o testExpression
+  916  ./testExpression
+  917  gcc testExpression.c -o testExpression
+  918  ./testExpression
+  919  gcc testExpression.c -o testExpression
+  920  ./testExpression
+  921  gcc testExpression.c -o testExpression
+  922  ./testExpression
+  923  cp ../theme.c testSwitch.c
+  924  vi testSwitch.c
+  925  gcc testSwitch.c -o testSwitch
+  926  ./testSwitch
+  927  /Users/qingyun/Desktop/1509/Code/20151012/testByteOperator ; exit;
+  928  cp ../theme.c testGoto.c
+  929  vi testGoto.c
+  930  gcc testGoto.c -o testGoto
+  931  ./testGoto
+  932  gcc testGoto.c -o testGoto
+  933  ./testGoto
+  934  gcc testGoto.c -o testGoto
+  935  ./testGoto
+  936  gcc testGoto.c -o testGoto
+  937  ./testGoto
+  938  gcc testGoto.c -o testGoto
+  939  ./testGoto
+  940  gcc testGoto.c -o testGoto
+  941  ./testGoto
+  942  gcc testGoto.c -o testGoto
+  943  cd Desktop/1509/Code/
+  944  mkdir 20151013
+  945  cd 20151013
+  946  cp ../theme.c wukong.c
+  947  vi wukong.c
+  948  cd Desktop/1509/Code/20151013
+  949  gcc wukong.c -o wukong
+  950  ./wukong
+  951  cp ../theme.c dinner.c
+  952  vi dinner.c
+  953  gcc dinner.c -o dinner
+  954  ./dinner
+  955  gcc dinner.c -o dinner
+  956  ./dinner
+  957  cp ../theme.c number.c
+  958  vi number.c
+  959  gcc number.c -o number
+  960  ./number
+  961  gcc number.c -o number
+  962  ./number
+  963  gcc number.c -o number
+  964  ./number
+  965  gcc number.c -o number
+  966  ./number
+  967  cp ../theme.c addLoop.c
+  968  vi addLoop.c
+  969  gcc addLoop.c -o addLoop
+  970  ./addLoop
+  971  gcc addLoop.c -o addLoop
+  972  ./addLoop
+  973  gcc addLoop.c -o addLoop
+  974  ./addLoop
+  975  gcc addLoop.c -o addLoop
+  976  ./addLoop
+  977  gcc addLoop.c -o addLoop
+  978  ./addLoop
+  979  cp ../theme.c weekday.c
+  980  vi weekday.c
+  981  gcc weekday.c -o weekday
+  982  ./weekday
+  983  gcc weekday.c -o weekday
+  984  ./weekday
+  985  man ascii
+  986  gcc weekday.c -o weekday
+  987  ./weekday
+  988  gcc weekday.c -o weekday
+  989  ./weekday
+  990  cp ../theme.c multiply.c
+  991  vi multiply.c
+  992  gcc multiply.c -o multiply
+  993  ./multiply
+  994  gcc multiply.c -o multiply
+  995  ./multiply
+  996  cp ../theme.c score.c
+  997  vi score.c
+  998  gcc multiply.c -o multiply
+  999  gcc score.c -o score
+ 1000  ./score
+ 1001  cp ../theme.c scoreSearch.c
+ 1002  vi scoreSearch.c
+ 1003  gcc scoreSearch.c -o scoreSearch.c
+ 1004  gcc scoreSearch.c -o scoreSearch
+ 1005  ls
+ 1006  cat scoreSearchCopy.c
+ 1007  rm -rf scoreSearch.c
+ 1008  ls
+ 1009  vi scoreSearchCopy.c
+ 1010  gcc scoreSearchCopy.c -o scoreSearchCopy
+ 1011  ./scoreSearchCopy
+ 1012  gcc scoreSearchCopy.c -o scoreSearchCopy
+ 1013  ./scoreSearchCopy
+ 1014  gcc scoreSearchCopy.c -o scoreSearchCopy
+ 1015  ./scoreSearchCopy
+ 1016  gcc scoreSearchCopy.c -o scoreSearchCopy
+ 1017  ./scoreSearchCopy
+ 1018  cd Desktop/1509/Code/20151013
+ 1019  ls
+ 1020  cp ../theme.c guess.c
+ 1021  vi guess.c
+ 1022  cd Desktop/1509/Code/20151013
+ 1023  ls
+ 1024  gcc guess.c -o guess
+ 1025  ./guess
+ 1026  gcc guess.c -o guess
+ 1027  ./guess
+ 1028  python
+ 1029  cp ../theme.c TestPointer.c
+ 1030  vi TestPointer.c
+ 1031  gcc TestPointer.c -o TestPointer
+ 1032  ./TestPointer
+ 1033  cp ../theme.c TestPointer.c
+ 1034  gcc TestPointer.c -o TestPointer
+ 1035  ./TestPointer
+ 1036  gcc TestPointer.c -o TestPointer
+ 1037  ./TestPointer
+ 1038  gcc TestPointer.c -o TestPointer
+ 1039  ./TestPointer
+ 1040  cp ../theme.c FuncContact.c
+ 1041  vi FuncContact.c
+ 1042  gcc FuncContact.c -o FuncContact
+ 1043  ./FuncContact
+ 1044  gcc FuncContact.c -o FuncContact
+ 1045  ./FuncContact
+ 1046  gcc FuncContact.c -o FuncContact
+ 1047  ./FuncContact
+ 1048  gcc FuncContact.c -o FuncContact
+ 1049  ./FuncContact
+ 1050  cd Desktop/1509/Code/20151013
+ 1051  vi FuncContact.c
+ 1052  cd Desktop/1509/Code/20151013
+ 1053  gcc FuncContact.c -o FuncContact
+ 1054  ./FuncContact
+ 1055  mkdir folder
+ 1056  cd folder
+ 1057  ls
+ 1058  cp ../../theme.c 1.c
+ 1059  vi 1.c
+ 1060  cd folder
+ 1061  gcc 1.c -o test
+ 1062  ./test
+ 1063  cd Desktop/1509/Code/20151013/folder
+ 1064  ls
+ 1065  vi 2.c
+ 1066  ls
+ 1067  rm 2.c
+ 1068  cp ../../theme.c 2.c
+ 1069  vi 2.c
+ 1070  ls
+ 1071  gcc 1.c 2.c -o test
+ 1072  ./test
+ 1073  gcc 1.c 2.c -o test
+ 1074  ./test
+ 1075  gcc 1.c 2.c -o test
+ 1076  ./test
+ 1077  gcc 1.c 2.c -o test
+ 1078  ./test
+ 1079  gcc 1.c 2.c -o test
+ 1080  ./test
+ 1081  gcc 1.c 2.c -o test
+ 1082  ./test
+ 1083  cd..
+ 1084  cd ..
+ 1085  ls
+ 1086  vi FuncContact.c
+ 1087  ifconfig
+ 1088  ifconfig｜grep 192
+ 1089  ifconfig ｜grep 192
+ 1090  ifconfig ｜grep 192.
+ 1091  ifconfig
+ 1092  ls
+ 1093  cd Desktop
+ 1094  ls
+ 1095  cd 1509
+ 1096  ls
+ 1097  cd Code
+ 1098  ls
+ 1099  mkdir 20151015
+ 1100  ls
+ 1101  cd 20151015
+ 1102  ls
+ 1103  vi testInt.c
+ 1104  cd Desktop/1509/Code/20151015
+ 1105  ls
+ 1106  gcc testInt.c -o testInt
+ 1107  ./testInt
+ 1108  gcc testInt.c -o testInt
+ 1109  ./testInt
+ 1110  gcc testInt.c -o testInt
+ 1111  ./testInt
+ 1112  gcc testInt.c -o testInt
+ 1113  ./testInt
+ 1114  gcc testInt.c -o testInt
+ 1115  ./testInt
+ 1116  gcc testInt.c -o testInt
+ 1117  ./testInt
+ 1118  gcc testInt.c -o testInt
+ 1119  ./testInt
+ 1120  vi testFloat.c
+ 1121  gcc testFloat.c -o testFloat
+ 1122  ./testFloat
+ 1123  gcc testFloat.c -o testFloat
+ 1124  ./testFloat
+ 1125  gcc testFloat.c -o testFloat
+ 1126  ./testFloat
+ 1127  gcc testFloat.c -o testFloat
+ 1128  ./testFloat
+ 1129  gcc testFloat.c -o testFloat
+ 1130  ./testFloat
+ 1131  gcc testFloat.c -o testFloat
+ 1132  ./testFloat
+ 1133  gcc testFloat.c -o testFloat
+ 1134  ./testFloat
+ 1135  gcc testFloat.c -o testFloat
+ 1136  ./testFloat
+ 1137  gcc testFloat.c -o testFloat
+ 1138  ./testFloat
+ 1139  gcc testFloat.c -o testFloat
+ 1140  ./testFloat
+ 1141  gcc testFloat.c -o testFloat
+ 1142  ./testFloat
+ 1143  man ascii
+ 1144  vi testChar.c
+ 1145  gcc testChar.c -o testChar
+ 1146  ./testChar
+ 1147  man ascii
+ 1148  gcc testChar.c -o testChar
+ 1149  ./testChar
+ 1150  man ascii
+ 1151  gcc testChar.c -o testChar
+ 1152  ./testChar
+ 1153  man ascii
+ 1154  gcc testChar.c -o testChar
+ 1155  ./testChar
+ 1156  man ascii
+ 1157  gcc testChar.c -o testChar
+ 1158  ./testChar
+ 1159  gcc testChar.c -o testChar
+ 1160  ./testChar
+ 1161  gcc testChar.c -o testChar
+ 1162  ./testChar
+ 1163  gcc testChar.c -o testChar
+ 1164  ./testChar
+ 1165  gcc testChar.c -o testChar
+ 1166  ./testChar
+ 1167  vi testChar1.c
+ 1168  gcc testChar1.c -o testChar1
+ 1169  ./testChar1
+ 1170  gcc testChar1.c -o testChar1
+ 1171  ./testChar1
+ 1172  man ascii
+ 1173  gcc testChar1.c -o testChar1
+ 1174  ./testChar1
+ 1175  man ascii
+ 1176  vi testString.c
+ 1177  gcc testString.c -o testString
+ 1178  ./testString
+ 1179  gcc testString.c -o testString
+ 1180  ./testString
+ 1181  gcc testString.c -o testString
+ 1182  ./testString
+ 1183  vi testStringOperate.c
+ 1184  gcc testStringOperate.c -o testStringOperate
+ 1185  ./testStringOperate
+ 1186  man strcpy
+ 1187  gcc testStringOperate.c -o testStringOperate
+ 1188  ./testStringOperate
+ 1189  man strcat
+ 1190  gcc testStringOperate.c -o testStringOperate
+ 1191  ./testStringOperate
+ 1192  gcc testStringOperate.c -o testStringOperate
+ 1193  ./testStringOperate
+ 1194  gcc testStringOperate.c -o testStringOperate
+ 1195  ./testStringOperate
+ 1196  gcc testStringOperate.c -o testStringOperate
+ 1197  ./testStringOperate
+ 1198  gcc testStringOperate.c -o testStringOperate
+ 1199  ./testStringOperate
+ 1200  gcc testStringOperate.c -o testStringOperate
+ 1201  ./testStringOperate
+ 1202  gcc testStringOperate.c -o testStringOperate
+ 1203  ./testStringOperate
+ 1204  gcc testStringOperate.c -o testStringOperate
+ 1205  ./testStringOperate
+ 1206  gcc testStringOperate.c -o testStringOperate
+ 1207  ./testStringOperate
+ 1208  gcc testStringOperate.c -o testStringOperate
+ 1209  ./testStringOperate
+ 1210  gcc testStringOperate.c -o testStringOperate
+ 1211  ./testStringOperate
+ 1212  gcc testStringOperate.c -o testStringOperate
+ 1213  ./testStringOperate
+ 1214  gcc testStringOperate.c -o testStringOperate
+ 1215  ./testStringOperate
+ 1216  gcc testStringOperate.c -o testStringOperate
+ 1217  ./testStringOperate
+ 1218  man memset
+ 1219  cd Desktop
+ 1220  ls
+ 1221  cd 1509/
+ 1222  ls
+ 1223  cd Code
+ 1224  ls
+ 1225  cd 20151015
+ 1226  ls
+ 1227  vi testStringOperate.c
+ 1228  cd Desktop/1509/Code/20151015
+ 1229  ls
+ 1230  gcc testStringOperate.c -o testStringOperate
+ 1231  ./testStringOperate
+ 1232  gcc testStringOperate.c -o testStringOperate
+ 1233  ./testStringOperate
+ 1234  gcc testStringOperate.c -o testStringOperate
+ 1235  ./testStringOperate
+ 1236  vi testEnum.c
+ 1237  gcc testEnum.c -o testEnum
+ 1238  ./testEnum
+ 1239  gcc testEnum.c -o testEnum
+ 1240  ./testEnum
+ 1241  gcc testEnum.c -o testEnum
+ 1242  ./testEnum
+ 1243  gcc testEnum.c -o testEnum
+ 1244  ./testEnum
+ 1245  gcc testEnum.c -o testEnum
+ 1246  ./testEnum
+ 1247  gcc testEnum.c -o testEnum
+ 1248  ./testEnum
+ 1249  gcc testEnum.c -o testEnum
+ 1250  ./testEnum
+ 1251  vi testArray.c
+ 1252  gcc testArray.c -o testArray
+ 1253  ./testArray
+ 1254  gcc testArray.c -o testArray
+ 1255  ./testArray
+ 1256  gcc testArray.c -o testArray
+ 1257  ./testArray
+ 1258  gcc testArray.c -o testArray
+ 1259  ./testArray
+ 1260  gcc testArray.c -o testArray
+ 1261  ./testArray
+ 1262  gcc testArray.c -o testArray
+ 1263  ./testArray
+ 1264  vi testArrayPointer.c
+ 1265  gcc testArrayPointer.c -o testArrayPointer
+ 1266  ./testArrayPointer
+ 1267  gcc testArrayPointer.c -o testArrayPointer
+ 1268  ./testArrayPointer
+ 1269  gcc testArrayPointer.c -o testArrayPointer
+ 1270  ./testArrayPointer
+ 1271  gcc testArrayPointer.c -o testArrayPointer
+ 1272  ./testArrayPointer
+ 1273  gcc testArrayPointer.c -o testArrayPointer
+ 1274  ./testArrayPointer
+ 1275  gcc testArrayPointer.c -o testArrayPointer
+ 1276  ./testArrayPointer
+ 1277  gcc testArrayPointer.c -o testArrayPointer
+ 1278  ./testArrayPointer
+ 1279  gcc testArrayPointer.c -o testArrayPointer
+ 1280  ./testArrayPointer
+ 1281  gcc testArrayPointer.c -o testArrayPointer
+ 1282  ./testArrayPointer
+ 1283  gcc testArrayPointer.c -o testArrayPointer
+ 1284  ./testArrayPointer
+ 1285  /Users/qingyun/Desktop/1509/Code/20151013/guess ; exit;
+ 1286  cd Desktop
+ 1287  ls
+ 1288  cd 1509/
+ 1289  ls
+ 1290  cd Code
+ 1291  ls
+ 1292  cd 20151015
+ 1293  ls
+ 1294  mkdir homework
+ 1295  ls
+ 1296  cd homework
+ 1297  ls
+ 1298  vi hw-1.c
+ 1299  cd Desktop
+ 1300  ls
+ 1301  cd 1509
+ 1302  ls
+ 1303  cd Co
+ 1304  cd Code
+ 1305  ls
+ 1306  cd 20151015
+ 1307  ls
+ 1308  cd homework
+ 1309  ls
+ 1310  gcc hw-1.c -o hw-1
+ 1311  ./hw-1
+ 1312  gcc hw-1.c -o hw-1
+ 1313  ./hw-1
+ 1314  gcc hw-1.c -o hw-1
+ 1315  ./hw-1
+ 1316  vi hw-2.c
+ 1317  gcc hw-2.c -o hw-2
+ 1318  ./hw-2
+ 1319  vi hw-3.c
+ 1320  gcc hw-3.c -o hw-3
+ 1321  ./hw-3
+ 1322  gcc hw-3.c -o hw-3
+ 1323  ./hw-3
+ 1324  vi hw-4.c
+ 1325  gcc hw-4.c -o hw-4
+ 1326  ./hw-4
+ 1327  gcc hw-4.c -o hw-4
+ 1328  ./hw-4
+ 1329  vi hw-5.c
+ 1330  gcc hw-5.c -o hw-5
+ 1331  ./hw-5
+ 1332  gcc hw-5.c -o hw-5
+ 1333  ./hw-5
+ 1334  gcc hw-5.c -o hw-5
+ 1335  ./hw-5
+ 1336  gcc hw-5.c -o hw-5
+ 1337  ./hw-5
+ 1338  ¬ß
+ 1339  ls
+ 1340  cd ..
+ 1341  ls
+ 1342  cd ..
+ 1343  mkdir 20151016
+ 1344  ls
+ 1345  cd 20151016
+ 1346  ls
+ 1347  vi testStruct.c
+ 1348  ¬ß
+ 1349  cd ...
+ 1350  ls
+ 1351  cd 20151016
+ 1352  ls
+ 1353  gcc testStruct.c -o testStruct
+ 1354  ./testStruct
+ 1355  gcc testStruct.c -o testStruct
+ 1356  ./testStruct
+ 1357  gcc testStruct.c -o testStruct
+ 1358  ./testStruct
+ 1359  gcc testStruct.c -o testStruct
+ 1360  ./testStruct
+ 1361  gcc testStruct.c -o testStruct
+ 1362  ./testStruct
+ 1363  gcc testStruct.c -o testStruct
+ 1364  ./testStruct
+ 1365  ls
+ 1366  vi testUnion.c
+ 1367  ls
+ 1368  gcc testUnion.c -o testUnion
+ 1369  ./testUnion
+ 1370  gcc testUnion.c -o testUnion
+ 1371  ./testUnion
+ 1372  gcc testUnion.c -o testUnion
+ 1373  ./testUnion
+ 1374  gcc testUnion.c -o testUnion
+ 1375  ./testUnion
+ 1376  cd Desktop/1509/Code/20151017
+ 1377  cd Desktop/1509/Code
+ 1378  ls
+ 1379  mkdir 20151017
+ 1380  ls
+ 1381  cd 20151017
+ 1382  ls
+ 1383  cp ../theme.c testMacro.c
+ 1384  vi testMacro.c
+ 1385  cd Desktop/1509/Code/201510176
+ 1386  cd Desktop/1509/Code/20151017
+ 1387  ls
+ 1388  gcc testMacro.c -o testMacro
+ 1389  ./testMacro
+ 1390  gcc testMacro.c -o testMacro
+ 1391  gcc -E testMacro
+ 1392  gcc -E testMacro.c
+ 1393  gcc -E testMacro.c > testMacro.e
+ 1394  ls
+ 1395  gcc testMacro.c -o testMacro
+ 1396  ./testMacro
+ 1397  gcc -E testMacro.c > testMacro.e
+ 1398  rm testMacro.e
+ 1399  gcc -E testMacro.c > testMacro.e
+ 1400  cat testMacro.e
+ 1401  gcc testMacro.c -o testMacro
+ 1402  ./testMacro
+ 1403  gcc testMacro.c -o testMacro
+ 1404  ./testMacro
+ 1405  gcc testMacro.c -o testMacro
+ 1406  ./testMacro
+ 1407  gcc testMacro.c -o testMacro
+ 1408  ./testMacro
+ 1409  gcc testMacro.c -o testMacro
+ 1410  ./testMacro
+ 1411  gcc testMacro.c -o testMacro
+ 1412  ./testMacro
+ 1413  gcc -E testMacro.c > testMacro.ee
+ 1414  cat testMacro.ee
+ 1415  gcc testMacro.c -o testMacro
+ 1416  ./testMacro
+ 1417  gcc testMacro.c -o testMacro
+ 1418  ./testMacro
+ 1419  gcc testMacro.c -o testMacro
+ 1420  ./testMacro
+ 1421  gcc testMacro.c -o testMacro
+ 1422  ./testMacro
+ 1423  gcc testMacro.c -o testMacro
+ 1424  ./testMacro
+ 1425  gcc testMacro.c -o testMacro
+ 1426  ./testMacro
+ 1427  gcc testMacro.c -o testMacro
+ 1428  ./testMacro
+ 1429  gcc testMacro.c -o testMacro
+ 1430  ./testMacro
+ 1431  ls
+ 1432  cd ..
+ 1433  ls
+ 1434  mv 20151017 ~/Desktop/1509/Code
+ 1435  ls
+ 1436  cd Desktop/1509/Code/20151017
+ 1437  ls
+ 1438  cp ../theme.c testHeader.c
+ 1439  vi testHeader.c
+ 1440  cd Desktop/1509/Code/20151017
+ 1441  ls
+ 1442  vi common.h
+ 1443  ls
+ 1444  gcc testHeader.c -o testHeader
+ 1445  ./testHeader
+ 1446  cp ../theme.c testOther.c
+ 1447  vi testOther.c
+ 1448  gcc testHeader.c testOther.c -o testHeader
+ 1449  ./testHeader
+ 1450  ls
+ 1451  rm testHeader
+ 1452  ls
+ 1453  gcc testHeader.c testOther.c -o testHeader
+ 1454  ./test
+ 1455  ./testHeader
+ 1456  gcc testHeader.c testOther.c -o testHeader
+ 1457  ./testHeader
+ 1458  gcc testHeader.c -o testHeader
+ 1459  ./testHeader
+ 1460  gcc -E testHeader.c > testHeader.e
+ 1461  cat testHeader.e
+ 1462  gcc testHeader.c -o testHeader
+ 1463  ./testHeader
+ 1464  gcc testHeader.c -o testHeader
+ 1465  ./testHeader
+ 1466  gcc testHeader.c -o testHeader
+ 1467  ./testHeader
+ 1468  gcc testHeader.c -o testHeader
+ 1469  ./testHeader
+ 1470  vi common.h
+ 1471  gcc testHeader.c -o testHeader
+ 1472  ./testHeader
+ 1473  gcc testHeader.c -o testHeader
+ 1474  ./testHeader
+ 1475  gcc testHeader.c -o testHeader
+ 1476  ./testHeader
+ 1477  cd Desktop/1509/Code/20151017
+ 1478  ls
+ 1479  cp ../theme.c testSysMacro.c
+ 1480  vi testSysMacro.c
+ 1481  cd Desktop/1509/Code/20151017
+ 1482  gcc testSysMacro.c -o testSysMacro
+ 1483  ./testSysMacro
+ 1484  gcc testSysMacro.c -o testSysMacro
+ 1485  ./testSysMacro
+ 1486  gcc testSysMacro.c -o testSysMacro
+ 1487  ./testSysMacro
+ 1488  ls
+ 1489  vi testHeader.c
+ 1490  cd Desktop/1509/Code/20151017\\
+ 1491  ;
+ 1492  cd Desktop/1509/Code/20151017
+ 1493  ls
+ 1494  vi common.h
+ 1495  cd Desktop/1509/Code/20151017
+ 1496  vi testOther.c
+ 1497  gcc testHeader.c -o testHeader
+ 1498  ./testHeader
+ 1499  gcc -E testHeader.c > testHeader.eee
+ 1500  cat testHeader.eee
+ 1501  gcc testHeader.c -o testHeader
+ 1502  ./testHeader
+ 1503  gcc testHeader.c -o testHeader
+ 1504  ./testHeader
+ 1505  ls
+ 1506  cp ../theme.c testDatatype.c
+ 1507  vi testDatatype.c
+ 1508  gcc testDatatype.c -o testDatatype
+ 1509  ./testDatatype
+ 1510  gcc testDatatype.c -o testDatatype
+ 1511  ./testDatatype
+ 1512  gcc testDatatype.c -o testDatatype
+ 1513  ./testDatatype
+ 1514  gcc testDatatype.c -o testDatatype
+ 1515  ./testDatatype
+ 1516  gcc testDatatype.c -o testDatatype
+ 1517  ./testDatatype
+ 1518  gcc testDatatype.c -o testDatatype
+ 1519  ./testDatatype
+ 1520  gcc testDatatype.c -o testDatatype
+ 1521  ./testDatatype
+ 1522  gcc testDatatype.c -o testDatatype
+ 1523  ./testDatatype
+ 1524  gcc testDatatype.c -o testDatatype
+ 1525  ./testDatatype
+ 1526  gcc testDatatype.c -o testDatatype
+ 1527  ./testDatatype
+ 1528  man strcpy
+ 1529  gcc testDatatype.c -o testDatatype
+ 1530  ./testDatatype
+ 1531  cp ../theme.c testMainArg.c
+ 1532  vi testMainArg.c
+ 1533  gcc testMainArg.c -o testMain
+ 1534  ./testMain
+ 1535  ./testMain abc cde faewfw
+ 1536  gcc testMainArg.c -o testMain
+ 1537  ./testMain
+ 1538  ./testMain abc cde faewfw
+ 1539  gcc testMainArg.c -o testMain
+ 1540  ./testmain
+ 1541  ps aux | grep "test"
+ 1542  gcc testMainArg.c -o testMain
+ 1543  ./testMain
+ 1544  ps aux | grep "test"
+ 1545  gcc testMainArg.c -o testMain
+ 1546  ./testMain
+ 1547  ps aux | grep "test"
+ 1548  ps aux | grep "explorer"
+ 1549  vi testDatatype.c
+ 1550  gcc testDatatype.c -o testDatatype
+ 1551  ./testDatatype
+ 1552  gcc testDatatype.c -o testDatatype
+ 1553  ./testDatatype
+ 1554  gcc testDatatype.c -o testDatatype
+ 1555  ./testDatatype
+ 1556  man malloc
+ 1557  gcc testDatatype.c -o testDatatype
+ 1558  ./testDatatype
+ 1559  man malloc
+ 1560  gcc testDatatype.c -o testDatatype
+ 1561  ./testDatatype
+ 1562  /Users/qingyun/Desktop/1509/Code/20151017/testDatatype ; exit;
+ 1563  cd Desktop/1509/Code/
+ 1564  ls
+ 1565  mkdir 20151019
+ 1566  cd 20151019
+ 1567  ls
+ 1568  cp ../theme.c testOpenFile.c
+ 1569  vi testOpenFile.c
+ 1570  cd Desktop
+ 1571  ls
+ 1572  man fgetc
+ 1573  cd 1509/Code/20151019
+ 1574  LS
+ 1575  gcc testOpenFile.c -o testOpenFile
+ 1576  ./testOpenFile
+ 1577  man ascii
+ 1578  gcc testOpenFile.c -o testOpenFile
+ 1579  ./testOpenFile
+ 1580  gcc testOpenFile.c -o testOpenFile
+ 1581  ./testOpenFile
+ 1582  gcc testOpenFile.c -o testOpenFile
+ 1583  ./testOpenFile
+ 1584  echo $0
+ 1585  echo $?
+ 1586  gcc testOpenFile.c -o testOpenFile
+ 1587  ./testOpenFile
+ 1588  echo $?
+ 1589  gcc testOpenFile.c -o testOpenFile
+ 1590  ./testOpenFile
+ 1591  echo $?
+ 1592  gcc testOpenFile.c -o testOpenFile
+ 1593  ./testOpenFile
+ 1594  gcc testOpenFile.c -o testOpenFile
+ 1595  ./testOpenFile
+ 1596  gcc testOpenFile.c -o testOpenFile
+ 1597  ./testOpenFile
+ 1598  gcc testOpenFile.c -o testOpenFile
+ 1599  ./testOpenFile
+ 1600  gcc testOpenFile.c -o testOpenFile
+ 1601  ./testOpenFile
+ 1602  gcc testOpenFile.c -o testOpenFile
+ 1603  ./testOpenFile
+ 1604  gcc testOpenFile.c -o testOpenFile
+ 1605  ./testOpenFile
+ 1606  gcc testOpenFile.c -o testOpenFile
+ 1607  ./testOpenFile
+ 1608  cd /dev
+ 1609  ls
+ 1610  cd /Users/qingyun/Desktop/1509/Code/20151019
+ 1611  gcc testOpenFile.c -o testOpenFile
+ 1612  ./testOpenFile
+ 1613  gcc testOpenFile.c -o testOpenFile
+ 1614  ./testOpenFile
+ 1615  gcc testOpenFile.c -o testOpenFile
+ 1616  ./testOpenFile
+ 1617  gcc testOpenFile.c -o testOpenFile
+ 1618  ./testOpenFile
+ 1619  cp ../theme.c CopyFile.c
+ 1620  vi CopyFile.c
+ 1621  gcc CopyFile.c o CopyFile
+ 1622  gcc CopyFile.c -o CopyFile
+ 1623  ./CopyFile /Users/qingyun/Desktop/theme.c /Users/qingyun/theme.c
+ 1624  gcc CopyFile.c -o CopyFile
+ 1625  ./CopyFile /Users/qingyun/Desktop/theme.c /Users/qingyun/theme.c
+ 1626  ls
+ 1627  cat theme.c
+ 1628  gcc CopyFile.c -o CopyFile
+ 1629  ./CopyFile /Users/qingyun/Desktop/theme.c /Users/qingyun/theme.c
+ 1630  ls
+ 1631  cat theme.c
+ 1632  gcc CopyFile.c -o CopyFile
+ 1633  ./CopyFile /Users/qingyun/Desktop/theme.c /Users/qingyun/theme.c
+ 1634  ls
+ 1635  cat theme.c
+ 1636  vi CopyFile
+ 1637  vi CopyFile.c
+ 1638  ls
+ 1639  rm theme.c
+ 1640  ls
+ 1641  gcc CopyFile.c -o CopyFile
+ 1642  ./CopyFile /Users/qingyun/Desktop/theme.c /Users/qingyun/theme.c
+ 1643  ls
+ 1644  cat theme.c
+ 1645  ./CopyFile /Users/qingyun/Desktop/theme.c /Users/qingyun/theme.c
+ 1646  cat theme.c
+ 1647  man fgets
+ 1648  man fputs
+ 1649  /Users/qingyun/Desktop/1509/Code/20151019/testOpenFile ; exit;
+ 1650  /Users/qingyun/Desktop/1509/Code/20151019/CopyFile ; exit;
+ 1651  cd Desktop/1509/Code/20151019
+ 1652  ls
+ 1653  vi CopyFile.c
+ 1654  //1 
+ 1655  //2
+ 1656  cp ../theme.c testFgetsFputs.c
+ 1657  vi testFgetsFputs.c
+ 1658  man fgets
+ 1659  cd Desktop/1509/Code/20151019
+ 1660  gcc testFgetsFputs.c -o testFgetsFputs
+ 1661  ./testFgetsFputs
+ 1662  gcc testFgetsFputs.c -o testFgetsFputs
+ 1663  ./testFgetsFputs
+ 1664  vi CopyFile.c
+ 1665  ls
+ 1666  gcc CopyFile.c -o CopyFile
+ 1667  ./CopyFile /Users/qingyun/Desktop/theme.c /Users/qingyun/1.c
+ 1668  gcc CopyFile.c -o CopyFile
+ 1669  ./CopyFile /Users/qingyun/Desktop/theme.c /Users/qingyun/1.c
+ 1670  gcc CopyFile.c -o CopyFile
+ 1671  ./CopyFile /Users/qingyun/Desktop/theme.c /Users/qingyun/1.c
+ 1672  gcc CopyFile.c -o CopyFile
+ 1673  ./CopyFile /Users/qingyun/Desktop/theme.c /Users/qingyun/1.c
+ 1674  gcc CopyFile.c -o CopyFile
+ 1675  ./CopyFile /Users/qingyun/Desktop/theme.c /Users/qingyun/1.c
+ 1676  gcc CopyFile.c -o CopyFile
+ 1677  ./CopyFile /Users/qingyun/Desktop/theme.c /Users/qingyun/1.c
+ 1678  gcc CopyFile.c -o CopyFile
+ 1679  ./CopyFile
+ 1680  ./CopyFile /Users/qingyun/Desktop/theme.c /Users/qingyun/1.c
+ 1681  gcc CopyFile.c -o CopyFile
+ 1682  ./CopyFile /Users/qingyun/Desktop/theme.c /Users/qingyun/1.c
+ 1683  ls
+ 1684  rm theme.c
+ 1685  ./CopyFile /Users/qingyun/Desktop/theme.c /Users/qingyun/1.c
+ 1686  cat theme.c
+ 1687  ls
+ 1688  rm 1.c
+ 1689  ./CopyFile /Users/qingyun/Desktop/theme.c /Users/qingyun/1.c
+ 1690  cat 1.c
+ 1691  gcc CopyFile.c -o CopyFile
+ 1692  ./CopyFile /Users/qingyun/Desktop/theme.c /Users/qingyun/1.c
+ 1693  gcc CopyFile.c -o CopyFile
+ 1694  ./CopyFile /Users/qingyun/Desktop/theme.c /Users/qingyun/1.c
+ 1695  ./CopyFile /Users/qingyun/Desktop/theme.c /Users/qingyun/2.c
+ 1696  gcc CopyFile.c -o CopyFile
+ 1697  ./CopyFile /Users/qingyun/Desktop/theme.c /Users/qingyun/3.c
+ 1698  ls
+ 1699  cat 3.c
+ 1700  gcc CopyFile.c -o CopyFile
+ 1701  ./CopyFile /Users/qingyun/Desktop/theme.c /Users/qingyun/3.c
+ 1702  cat 3.c
+ 1703  cp ../theme.c testsFscanfFprintf.c
+ 1704  vi testsFscanfFprintf.c
+ 1705  man fprintf
+ 1706  gcc testsFscanfFprintf.c -o testsFscanfFprintf
+ 1707  ./testsFscanfFprintf
+ 1708  gcc testsFscanfFprintf.c -o testsFscanfFprintf
+ 1709  ./testsFscanfFprintf
+ 1710  gcc testsFscanfFprintf.c -o testsFscanfFprintf
+ 1711  ./testsFscanfFprintf
+ 1712  gcc testsFscanfFprintf.c -o testsFscanfFprintf
+ 1713  ./testsFscanfFprintf
+ 1714  gcc testsFscanfFprintf.c -o testsFscanfFprintf
+ 1715  ./testsFscanfFprintf
+ 1716  gcc testsFscanfFprintf.c -o testsFscanfFprintf
+ 1717  ./testsFscanfFprintf
+ 1718  gcc testsFscanfFprintf.c -o testsFscanfFprintf
+ 1719  man fscanf
+ 1720  gcc testsFscanfFprintf.c -o testsFscanfFprintf
+ 1721  ./testsFscanfFprintf
+ 1722  gcc testsFscanfFprintf.c -o testsFscanfFprintf
+ 1723  ./testsFscanfFprintf
+ 1724  gcc testsFscanfFprintf.c -o testsFscanfFprintf
+ 1725  ./testsFscanfFprintf
+ 1726  gcc testsFscanfFprintf.c -o testsFscanfFprintf
+ 1727  ./testsFscanfFprintf
+ 1728  vi testFgetsFputs.c
+ 1729  man ascii
+ 1730  man fwrite
+ 1731  cd Desktop/1509/Code/20151019
+ 1732  cp ../theme.c StudentInfo.c
+ 1733  vi StudentInfo.c
+ 1734  cd Desktop/1509/Code/20151019
+ 1735  gcc StudentInfo.c -o StudentInfo
+ 1736  ./StudentInfo
+ 1737  cd Desktop
+ 1738  cat info.data
+ 1739  ls
+ 1740  cp StudentInfo.c ReadStudentInfo.c
+ 1741  ls
+ 1742  vi ReadStudentInfo.c
+ 1743  gcc ReadStudentInfo.c -o ReadStudentInfo
+ 1744  ./ReadStudentInfo
+ 1745  gcc ReadStudentInfo.c -o ReadStudentInfo
+ 1746  ./ReadStudentInfo
+ 1747  ls
+ 1748  vi testOpenFile.c
+ 1749  gcc CopyFile.c -o CopyFile
+ 1750  ./CopyFile
+ 1751  gcc testOpenFile.c -o testOpenFile
+ 1752  ./testOpenFile
+ 1753  gcc testOpenFile.c -o testOpenFile
+ 1754  ./testOpenFile
+ 1755  man fseek
+ 1756  gcc testOpenFile.c -o testOpenFile
+ 1757  ./testOpenFile
+ 1758  gcc testOpenFile.c -o testOpenFile
+ 1759  ./testOpenFile
+ 1760  gcc testOpenFile.c -o testOpenFile
+ 1761  ./testOpenFile
+ 1762  gcc testOpenFile.c -o testOpenFile
+ 1763  ./testOpenFile
+ 1764  gcc testOpenFile.c -o testOpenFile
+ 1765  ./testOpenFile
+ 1766  gcc testOpenFile.c -o testOpenFile
+ 1767  ./testOpenFile
+ 1768  vi ReadStudentInfo
+ 1769  vi ReadStudentInfo.c
+ 1770  gcc ReadStudentInfo.c -o ReadStudentInfo
+ 1771  ./ReadStudentInfo
+ 1772  cd Desktop/1509/Code/
+ 1773  ls
+ 1774  mkdir 20151020
+ 1775  cd 20151020
+ 1776  ls
+ 1777  cp ../theme.c testBuffer.c
+ 1778  vi testBuffer.c
+ 1779  cd Desktop/1509/Code/20151020
+ 1780  gcc testBuffer.c -o testBuffer
+ 1781  ./testBuffer
+ 1782  gcc testBuffer.c -o testBuffer
+ 1783  ./testBuffer
+ 1784  gcc testBuffer.c -o testBuffer
+ 1785  ./testBuffer
+ 1786  gcc testBuffer.c -o testBuffer
+ 1787  ./testBuffer
+ 1788  gcc testBuffer.c -o testBuffer
+ 1789  ./testBuffer
+ 1790  gcc testBuffer.c -o testBuffer
+ 1791  ./testBuffer
+ 1792  gcc testBuffer.c -o testBuffer
+ 1793  ./testBuffer
+ 1794  gcc testBuffer.c -o testBuffer
+ 1795  ./testBuffer
+ 1796  man fpurge
+ 1797  gcc testBuffer.c -o testBuffer
+ 1798  ./testBuffer
+ 1799  gcc testBuffer.c -o testBuffer
+ 1800  ./testBuffer
+ 1801  man scanf
+ 1802  cp ../theme.c testPtrFunc.c
+ 1803  vi testPtrFunc.c
+ 1804  gcc testPtrFunc.c -o testPtrFunc
+ 1805  ./testPtrFunc
+ 1806  cp ../theme.c testFuncPtr.c
+ 1807  vi testFuncPtr.c
+ 1808  gcc testFuncPtr.c -o testFuncPtr
+ 1809  ./testFuncPtr
+ 1810  gcc testFuncPtr.c -o testFuncPtr
+ 1811  ./testFuncPtr
+ 1812  cp ../theme.c testMultipClare.c
+ 1813  vi testMultipClare.c
+ 1814  gcc testFuncPtr.c -o testFuncPtr
+ 1815  gcc testMultipClare.c -o testMultipClare
+ 1816  vi ../theme.c testMacro.c
+ 1817  ls
+ 1818  cp ../theme.c testMacro.c 
+ 1819  vi testMacro.c
+ 1820  gcc testMacro.c -o testMacro
+ 1821  ./testMacro
+ 1822  gcc testMacro.c -o testMacro
+ 1823  ./testM
+ 1824  ./testMacro
+ 1825  vi ../theme.c
+ 1826  vi testFuncPtr.c
+ 1827  gcc testFuncPtr.c -o testFuncPtr
+ 1828  cd Desktop/1509/Code
+ 1829  ls
+ 1830  cd StudentInfo
+ 1831  ls
+ 1832  cd docs
+ 1833  vi readme.txt
+ 1834  ls
+ 1835  cd ..
+ 1836  vi common.h
+ 1837  cp ../theme.c main.c
+ 1838  cp ../theme.c student.c
+ 1839  ls
+ 1840  vi common.h
+ 1841  cd Desktop/1509/Code/StudentInfo
+ 1842  vi main.c
+ 1843  cd Desktop/1509/Code/StudentInfo
+ 1844  vi student.c
+ 1845  cd Desktop/1509/Code/StudentInfo
+ 1846  gcc main.c student.c -o studentinfo
+ 1847  vi common.h
+ 1848  gcc main.c student.c -o studentinfo
+ 1849  ./studentinfo
+ 1850  gcc main.c student.c -o studentinfo
+ 1851  ./studentinfo
+ 1852  gcc main.c student.c -o studentinfo
+ 1853  ./studentinfo
+ 1854  gcc main.c student.c -o studentinfo
+ 1855  ./studentinfo
+ 1856  gcc main.c student.c -o studentinfo
+ 1857  ./student
+ 1858  ./studentinfo
+ 1859  vi main.c
+ 1860  ./student
+ 1861  gcc main.c student.c -o studentinfo
+ 1862  ./studentinfo
+ 1863  gcc main.c student.c -o studentinfo
+ 1864  ./studentinfo
+ 1865  gcc main.c student.c -o studentinfo
+ 1866  ./studentinfo
+ 1867  gcc main.c student.c -o studentinfo
+ 1868  ./studentinfo
+ 1869  gcc main.c student.c -o studentinfo
+ 1870  ./studentinfo
+ 1871  cd Desktop/1509/Code/StudentInfo
+ 1872  vi student.c
+ 1873  cd Desktop/1509/Code/StudentInfo
+ 1874  gcc main.c student.c -o studentinfo
+ 1875  ./studentinfo
+ 1876  gcc main.c student.c -o studentinfo
+ 1877  ./studentinfo
+ 1878  gcc main.c student.c -o studentinfo
+ 1879  ./studentinfo
+ 1880  gcc main.c student.c -o studentinfo
+ 1881  ./studentinfo
+ 1882  gcc main.c student.c -o studentinfo
+ 1883  ./studentinfo
+ 1884  gcc main.c student.c -o studentinfo
+ 1885  ./studentinfo
+ 1886  gcc main.c student.c -o studentinfo
+ 1887  ./studentinfo
+ 1888  gcc main.c student.c -o studentinfo
+ 1889  ./studentin
+ 1890  ./studentinfo
+ 1891  gcc main.c student.c -o studentinfo
+ 1892  ./studentinfo
+ 1893  gcc main.c student.c -o studentinfo
+ 1894  ./studentinfo
+ 1895  ./student
+ 1896  ./studentinfo
+ 1897  gcc main.c student.c -o studentinfo
+ 1898  ./studentinfo
+ 1899  gcc main.c student.c -o studentinfo
+ 1900  ./studentinfo
+ 1901  cd Desktop/1509/Code/
+ 1902  ls
+ 1903  mkdir 20151022
+ 1904  cd 20151022
+ 1905  ls
+ 1906  cp ../theme.c testMemory.c
+ 1907  vi testMemory.c
+ 1908  cd Desktop/1509/Code/20151022
+ 1909  ls
+ 1910  gcc testMemory.c -o testMemory
+ 1911  ./testMemory
+ 1912  gcc testMemory.c -o testMemory
+ 1913  ./testMemory
+ 1914  gcc testMemory.c -o testMemory
+ 1915  ./testMemory
+ 1916  gcc testMemory.c -o testMemory
+ 1917  ./testMemory
+ 1918  gcc testMemory.c -o testMemory
+ 1919  ./testMemory
+ 1920  gcc testMemory.c -o testMemory
+ 1921  ./testMemory
+ 1922  gcc testMemory.c -o testMemory
+ 1923  ./testMemory
+ 1924  gcc testMemory.c -o testMemory
+ 1925  ./testMemory
+ 1926  gcc testMemory.c -o testMemory
+ 1927  ./testMemory
+ 1928  gcc testMemory.c -o testMemory
+ 1929  ./testMemory
+ 1930  gcc testMemory.c -o testMemory
+ 1931  ./testMemorym
+ 1932  ./testMemory
+ 1933  ./testMemorym
+ 1934  gcc testMemory.c -o testMemory
+ 1935  ./testMemory
+ 1936  gcc testMemory.c -o testMemory
+ 1937  ./testMemory
+ 1938  cd Desktop
+ 1939  echo "hello, student > hello.txt
+ 1940  echo "hello, student" > hello.txt
+ 1941  say "刘喜来一首"
+ 1942  say "张喜来一首"
+ 1943  cd Desktop
+ 1944  echo "chushihuafangfa" > init.txt
+ 1945  ls
+ 1946  cat error.log
+ 1947  ps aux | grep "Xcode"
+ 1948  ifconfig
+ 1949  ls
+ 1950  cp /Volumes/NO\ NAME/localConfig.tgz .
+ 1951  ls
+ 1952  cd localConfig
+ 1953  ls
+ 1954  cd ..
+ 1955  ls
+ 1956  rm -rf localConfig
+ 1957  tar xfvz localConfig.tgz
+ 1958  ls
+ 1959  cd localConfig
+ 1960  ls
+ 1961  vi hello.c
+ 1962  rm -rf hello.c
+ 1963  ls
+ 1964  rm -rf .vimrc
+ 1965  ls
+ 1966  vi hello.c
+ 1967  rm -rf hello.c
+ 1968  ls
+ 1969  rm .zshrc
+ 1970  vi hello.c
+ 1971  git config --global user.name "dorayo"
+ 1972  git config --global user.email "youming@hnqingyun.com"
+ 1973  ls
+ 1974  code
+ 1975  ls
+ 1976  cd Desktop/1509/Code/
+ 1977  pwd
+ 1978  vi ~/.zshrc
+ 1979  cd
+ 1980  code
+ 1981  source ~/.zshrc
+ 1982  code
+ 1983  ls
+ 1984  cd
+ 1985  code
+ 1986  ls
+ 1987  cd 20151112
+ 1988  ls
+ 1989  mkdir APlan
+ 1990  ls
+ 1991  cd APlan
+ 1992  ls
+ 1993  echo "This is A Plan" > README.md
+ 1994  ls
+ 1995  vi main.c
+ 1996  ls
+ 1997  git init
+ 1998  ls
+ 1999  ls -a
+ 2000  rm -rf .git
+ 2001  ls
+ 2002  ls -a
+ 2003  git init
+ 2004  ls -a
+ 2005  ls
+ 2006  git status
+ 2007  git add .
+ 2008  git status
+ 2009  git commit 
+ 2010  git log
+ 2011  git config --global core.editor vim
+ 2012* history | grep git
+ 2013  ls
+ 2014  echo "xyz" >> main.c
+ 2015  cat main.c
+ 2016  git status
+ 2017  git add main.c
+ 2018  git status
+ 2019  git commit -m "修改了main.c，增加了xxx功能"
+ 2020  git log
+ 2021  ls
+ 2022  echo "1234" >> README.md
+ 2023  cat README.md
+ 2024  git status
+ 2025  git commit -a -m "修改了README.md文件"
+ 2026  git log
+ 2027  git commit --amend
+ 2028  git log
+ 2029  vi README.md
+ 2030  ls
+ 2031  rm README.md\~
+ 2032  ls
+ 2033  git status
+ 2034  git commit --amend
+ 2035  git commit -a --amend
+ 2036  git log
+ 2037  cat README.md
+ 2038  vi README.md
+ 2039  rm *~
+ 2040  ls
+ 2041  git status
+ 2042  git add README.md
+ 2043  git status
+ 2044  git commit --amend
+ 2045  git log
+ 2046* code
+ 2047* ls
+ 2048* cd 20151112
+ 2049* ls
+ 2050* cd APlan
+ 2051* ls
+ 2052* cd ..
+ 2053* ls
+ 2054* mkdir diffTest
+ 2055* cd diffTest
+ 2056* ls
+ 2057* echo "abc" > 1 
+ 2058* echo "abc" > 2
+ 2059* ls
+ 2060* diff 1 2
+ 2061* echo "abcd" > 3
+ 2062* diff 1 3
+ 2063* echo "abcd" > 4
+ 2064* echo "1234" >> 4
+ 2065* diff 3 4
+ 2066* diff 4 3
+ 2067* cd ..
+ 2068* ls
+ 2069* cd APlan
+ 2070* ls
+ 2071* git diff
+ 2072* ls
+ 2073* echo "0000" >> README.md
+ 2074* git diff 
+ 2075* echo "1234" >> main.c
+ 2076* git diff
+ 2077* vi main.c
+ 2078* git diff
+ 2079* ls
+ 2080* rm *~
+ 2081* ls
+ 2082* git diff main.c
+ 2083* ls
+ 2084* git diff --staged
+ 2085* git diff --cached
+ 2086* git add .
+ 2087* git diff
+ 2088* ls
+ 2089* cat 
+ 2090* cat README.md
+ 2091* cat main.c
+ 2092* git diff --staged
+ 2093* git status
+ 2094* git commit -m "再一次修改"
+ 2095* git log
+ 2096* ls
+ 2097* mv main.c hello.c
+ 2098* git status
+ 2099* git add main.c
+ 2100* git status
+ 2101* git add hello.c
+ 2102* git status
+ 2103* git commit -m "renamed:    main.c -> hello.c"
+ 2104* git log
+ 2105* ls
+ 2106* git mv README.md README
+ 2107* git status
+ 2108* git commit -m "renamed:    README.md -> README"
+ 2109* git log
+ 2110* ls
+ 2111* git rm README
+ 2112* git status
+ 2113* git commit -m "rm README"
+ 2114* git log
+ 2115* ls
+ 2116* history | grep git
+ 2117* ls
+ 2118* cat hello.c
+ 2119* echo "abc" >> hello.c
+ 2120* git add hello.c
+ 2121* ls
+ 2122* git status
+ 2123* ls
+ 2124* echo "000" >> hello.c
+ 2125* git status
+ 2126* git add hello.c
+ 2127* git status
+ 2128* git commit -m "finally"
+ 2129* git log
+ 2130* ls
+ 2131* cat hello.c
+ 2132  ls
+ 2133  vi hello.c
+ 2134  ls
+ 2135  rm *~
+ 2136  ls
+ 2137  git diff
+ 2138  ls
+ 2139  git checkout -- .
+ 2140  ls
+ 2141  cat hello.c
+ 2142  vi hello.c
+ 2143  rm *~
+ 2144  ls
+ 2145  git diff
+ 2146  git stash
+ 2147  cat hello.c
+ 2148  git stash apply
+ 2149  ls
+ 2150  cat hello.c
+ 2151  man git-stash
+ 2152  git stash list
+ 2153  ls
+ 2154  vi hello.c
+ 2155  git stash
+ 2156  git stash list
+ 2157  man git-stash
+ 2158  git stash
+ 2159  ls
+ 2160  rm *~
+ 2161  ls
+ 2162  git stash clear
+ 2163  git stash list
+ 2164  ls
+ 2165  vi hello.c
+ 2166  git add hello.c
+ 2167  ls
+ 2168  rm *~
+ 2169  git status
+ 2170  git reset HEAD .
+ 2171  git status
+ 2172  git stash
+ 2173  ls
+ 2174  git stash apply
+ 2175  ls
+ 2176  git add .
+ 2177  git status
+ 2178  git commit -m "modify hello.c"
+ 2179  ls
+ 2180  cat hello.c
+ 2181  git log
+ 2182  git reset --hard b10f7fda3502c92428a14df689e7a0dd2318e963
+ 2183  ls
+ 2184  cat hello.c
+ 2185  git log
+ 2186  git reflog
+ 2187  git reset --hard 3a4aedc
+ 2188  git log
+ 2189  cat hello.c
+ 2190  git reflog
+ 2191  git revert
+ 2192  git revert a6b57da
+ 2193  ls
+ 2194  git log
+ 2195  git revert 3a4aedc932d4919d15fdabf93b03b2ec4c486ffa
+ 2196  ls
+ 2197  cat hello.c
+ 2198  history | grep git
+ 2199* git tag
+ 2200* git log
+ 2201* ls
+ 2202* echo "main.c" > main.c
+ 2203* git add main.c
+ 2204* git ci -m "new file - main.c"
+ 2205* git log
+ 2206* ls
+ 2207* git tag -a v1.2 -m "这是我们的1.2版本"
+ 2208* git tag
+ 2209* git show v1.2
+ 2210* git log
+ 2211* git tag -a v1.0 -m "1.0 版本" a6b57da507ccf1ccc38511b61e10d08af42e077b
+ 2212* git tag
+ 2213* git show v1.0
+ 2214  ls
+ 2215  cat ~/.gitconfig
+ 2216  vi ~/.gitconfig
+ 2217  ls
+ 2218  git st
+ 2219  echo "xxx" >> main.c
+ 2220  git st
+ 2221  git lg
+ 2222  git log
+ 2223  git lg
+ 2224  ls
+ 2225  git stash
+ 2226  git co -b test
+ 2227  echo "hello" >> main.c
+ 2228  git add main.c
+ 2229  git ci -m "update main.c"
+ 2230  git co master
+ 2231  ls
+ 2232  echo "xxx" >> README
+ 2233  git add Re
+ 2234  git add .
+ 2235  git ci -m "update README"
+ 2236  git merge test
+ 2237  git lg
+ 2238  git log
+ 2239  cd
+ 2240  ls
+ 2241  git clone http://github.com/dorayo/dotfiles.git
+ 2242  ls
+ 2243  code
+ 2244  ls
+ 2245  cd 20151112
+ 2246  ls
+ 2247  git clone http://github.com/dorayo/dotfiles.git
+ 2248  ls
+ 2249  cd dotfiles
+ 2250  ls
+ 2251  git br
+ 2252  git br -a
+ 2253  git co origin/mac-qy
+ 2254  git co mac-qy
+ 2255  ls
+ 2256  ls -a
+ 2257  cat .git
+ 2258  cat .gitconfig
+ 2259  cat .vimrc | tail -10
+ 2260  ls
+ 2261  ls -a
+ 2262  cat .zshrc
+ 2263  vi README.md
+ 2264  ls
+ 2265  vi install.sh
+ 2266  ls
+ 2267  cd ..
+ 2268  ls
+ 2269  cd APlan
+ 2270  ls
+ 2271  vi .gitignore
+ 2272  ls
+ 2273  git status
+ 2274  ls
+ 2275  echo "xxx" > 123
+ 2276  ls
+ 2277  git status
+ 2278  vi .gitignore
+ 2279  git status
+ 2280  vi .gitignore
+ 2281  git st
+ 2282  ls
+ 2283  git add .
+ 2284  git st
+ 2285  ls
+ 2286  git ci -m "add .gitignore"
+ 2287  ls
+ 2288  mkdir test
+ 2289  ls
+ 2290  git st
+ 2291  cd test
+ 2292  ls
+ 2293  touch abc
+ 2294  ls
+ 2295  cd ..
+ 2296  ls
+ 2297  git status
+ 2298  vi .gitignore
+ 2299  git st
+ 2300  vi .gitignore
+ 2301  ls
+ 2302  cd test
+ 2303  ls
+ 2304  touch {a,b,c}.c
+ 2305  ls
+ 2306  cd ..
+ 2307  git st
+ 2308  vi .git
+ 2309  vi .gitignore
+ 2310  git st
+ 2311  git add .
+ 2312  git ci -m "update "
+ 2313  git lg
+ 2314  git ci --amend
+ 2315  git lg
+ 2316  history 
+ 2317  pwd

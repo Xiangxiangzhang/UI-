@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC5764F71C073AFB003089F0 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = CC5764F61C073AFB003089F0 /* back.png */; };
+		CCB431191C072D9F00C46BAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB431181C072D9F00C46BAD /* main.m */; };
+		CCB4311C1C072D9F00C46BAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB4311B1C072D9F00C46BAD /* AppDelegate.m */; };
+		CCB4311F1C072D9F00C46BAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB4311E1C072D9F00C46BAD /* ViewController.m */; };
+		CCB431221C072D9F00C46BAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB431201C072D9F00C46BAD /* Main.storyboard */; };
+		CCB431241C072D9F00C46BAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB431231C072D9F00C46BAD /* Images.xcassets */; };
+		CCB431271C072D9F00C46BAD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB431251C072D9F00C46BAD /* LaunchScreen.xib */; };
+		CCB431331C072D9F00C46BAD /* ___TabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB431321C072D9F00C46BAD /* ___TabBarTests.m */; };
+		CCB4313E1C072E0F00C46BAD /* QYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB4313D1C072E0F00C46BAD /* QYTabBarController.m */; };
+		CCB4314F1C0735C500C46BAD /* 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB431421C0735C500C46BAD /* 1@2x.png */; };
+		CCB431501C0735C500C46BAD /* 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB431431C0735C500C46BAD /* 2@2x.png */; };
+		CCB431511C0735C500C46BAD /* 3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB431441C0735C500C46BAD /* 3@2x.png */; };
+		CCB431521C0735C500C46BAD /* 4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB431451C0735C500C46BAD /* 4@2x.png */; };
+		CCB431531C0735C500C46BAD /* favoritesIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB431461C0735C500C46BAD /* favoritesIcon@2x.png */; };
+		CCB431541C0735C500C46BAD /* favoritesIconHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB431471C0735C500C46BAD /* favoritesIconHighlighted@2x.png */; };
+		CCB431551C0735C500C46BAD /* hightabButtonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB431481C0735C500C46BAD /* hightabButtonBackground.png */; };
+		CCB431561C0735C500C46BAD /* mentionsIconHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB431491C0735C500C46BAD /* mentionsIconHighlighted@2x.png */; };
+		CCB431571C0735C500C46BAD /* messagesIconHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB4314A1C0735C500C46BAD /* messagesIconHighlighted@2x.png */; };
+		CCB431581C0735C500C46BAD /* searchIconHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB4314B1C0735C500C46BAD /* searchIconHighlighted@2x.png */; };
+		CCB431591C0735C500C46BAD /* tabBarNotificationLightOn.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB4314C1C0735C500C46BAD /* tabBarNotificationLightOn.png */; };
+		CCB4315A1C0735C500C46BAD /* tabButtonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB4314D1C0735C500C46BAD /* tabButtonBackground.png */; };
+		CCB4315B1C0735C500C46BAD /* timelineIconHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB4314E1C0735C500C46BAD /* timelineIconHighlighted@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCB4312D1C072D9F00C46BAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCB4310B1C072D9F00C46BAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB431121C072D9F00C46BAD;
+			remoteInfo = "自定义TabBar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC5764F61C073AFB003089F0 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		CCB431131C072D9F00C46BAD /* 自定义TabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义TabBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB431171C072D9F00C46BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB431181C072D9F00C46BAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCB4311A1C072D9F00C46BAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCB4311B1C072D9F00C46BAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCB4311D1C072D9F00C46BAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCB4311E1C072D9F00C46BAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCB431211C072D9F00C46BAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCB431231C072D9F00C46BAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCB431261C072D9F00C46BAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CCB4312C1C072D9F00C46BAD /* 自定义TabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义TabBarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB431311C072D9F00C46BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB431321C072D9F00C46BAD /* ___TabBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___TabBarTests.m"; sourceTree = "<group>"; };
+		CCB4313C1C072E0F00C46BAD /* QYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYTabBarController.h; sourceTree = "<group>"; };
+		CCB4313D1C072E0F00C46BAD /* QYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYTabBarController.m; sourceTree = "<group>"; };
+		CCB431421C0735C500C46BAD /* 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1@2x.png"; sourceTree = "<group>"; };
+		CCB431431C0735C500C46BAD /* 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2@2x.png"; sourceTree = "<group>"; };
+		CCB431441C0735C500C46BAD /* 3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3@2x.png"; sourceTree = "<group>"; };
+		CCB431451C0735C500C46BAD /* 4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@2x.png"; sourceTree = "<group>"; };
+		CCB431461C0735C500C46BAD /* favoritesIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "favoritesIcon@2x.png"; sourceTree = "<group>"; };
+		CCB431471C0735C500C46BAD /* favoritesIconHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "favoritesIconHighlighted@2x.png"; sourceTree = "<group>"; };
+		CCB431481C0735C500C46BAD /* hightabButtonBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hightabButtonBackground.png; sourceTree = "<group>"; };
+		CCB431491C0735C500C46BAD /* mentionsIconHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mentionsIconHighlighted@2x.png"; sourceTree = "<group>"; };
+		CCB4314A1C0735C500C46BAD /* messagesIconHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "messagesIconHighlighted@2x.png"; sourceTree = "<group>"; };
+		CCB4314B1C0735C500C46BAD /* searchIconHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchIconHighlighted@2x.png"; sourceTree = "<group>"; };
+		CCB4314C1C0735C500C46BAD /* tabBarNotificationLightOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarNotificationLightOn.png; sourceTree = "<group>"; };
+		CCB4314D1C0735C500C46BAD /* tabButtonBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabButtonBackground.png; sourceTree = "<group>"; };
+		CCB4314E1C0735C500C46BAD /* timelineIconHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timelineIconHighlighted@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCB431101C072D9F00C46BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB431291C072D9F00C46BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCB4310A1C072D9F00C46BAD = {
+			isa = PBXGroup;
+			children = (
+				CCB431151C072D9F00C46BAD /* 自定义TabBar */,
+				CCB4312F1C072D9F00C46BAD /* 自定义TabBarTests */,
+				CCB431141C072D9F00C46BAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCB431141C072D9F00C46BAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCB431131C072D9F00C46BAD /* 自定义TabBar.app */,
+				CCB4312C1C072D9F00C46BAD /* 自定义TabBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCB431151C072D9F00C46BAD /* 自定义TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				CCB4311A1C072D9F00C46BAD /* AppDelegate.h */,
+				CCB4311B1C072D9F00C46BAD /* AppDelegate.m */,
+				CCB4311D1C072D9F00C46BAD /* ViewController.h */,
+				CCB4311E1C072D9F00C46BAD /* ViewController.m */,
+				CCB431201C072D9F00C46BAD /* Main.storyboard */,
+				CCB4313C1C072E0F00C46BAD /* QYTabBarController.h */,
+				CCB4313D1C072E0F00C46BAD /* QYTabBarController.m */,
+				CCB431231C072D9F00C46BAD /* Images.xcassets */,
+				CCB431251C072D9F00C46BAD /* LaunchScreen.xib */,
+				CCB431161C072D9F00C46BAD /* Supporting Files */,
+			);
+			path = "自定义TabBar";
+			sourceTree = "<group>";
+		};
+		CCB431161C072D9F00C46BAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCB431411C0735C500C46BAD /* tabbar */,
+				CCB431171C072D9F00C46BAD /* Info.plist */,
+				CCB431181C072D9F00C46BAD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCB4312F1C072D9F00C46BAD /* 自定义TabBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCB431321C072D9F00C46BAD /* ___TabBarTests.m */,
+				CCB431301C072D9F00C46BAD /* Supporting Files */,
+			);
+			path = "自定义TabBarTests";
+			sourceTree = "<group>";
+		};
+		CCB431301C072D9F00C46BAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCB431311C072D9F00C46BAD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCB431411C0735C500C46BAD /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				CCB431421C0735C500C46BAD /* 1@2x.png */,
+				CCB431431C0735C500C46BAD /* 2@2x.png */,
+				CCB431441C0735C500C46BAD /* 3@2x.png */,
+				CCB431451C0735C500C46BAD /* 4@2x.png */,
+				CC5764F61C073AFB003089F0 /* back.png */,
+				CCB431461C0735C500C46BAD /* favoritesIcon@2x.png */,
+				CCB431471C0735C500C46BAD /* favoritesIconHighlighted@2x.png */,
+				CCB431481C0735C500C46BAD /* hightabButtonBackground.png */,
+				CCB431491C0735C500C46BAD /* mentionsIconHighlighted@2x.png */,
+				CCB4314A1C0735C500C46BAD /* messagesIconHighlighted@2x.png */,
+				CCB4314B1C0735C500C46BAD /* searchIconHighlighted@2x.png */,
+				CCB4314C1C0735C500C46BAD /* tabBarNotificationLightOn.png */,
+				CCB4314D1C0735C500C46BAD /* tabButtonBackground.png */,
+				CCB4314E1C0735C500C46BAD /* timelineIconHighlighted@2x.png */,
+			);
+			path = tabbar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCB431121C072D9F00C46BAD /* 自定义TabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB431361C072D9F00C46BAD /* Build configuration list for PBXNativeTarget "自定义TabBar" */;
+			buildPhases = (
+				CCB4310F1C072D9F00C46BAD /* Sources */,
+				CCB431101C072D9F00C46BAD /* Frameworks */,
+				CCB431111C072D9F00C46BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义TabBar";
+			productName = "自定义TabBar";
+			productReference = CCB431131C072D9F00C46BAD /* 自定义TabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCB4312B1C072D9F00C46BAD /* 自定义TabBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB431391C072D9F00C46BAD /* Build configuration list for PBXNativeTarget "自定义TabBarTests" */;
+			buildPhases = (
+				CCB431281C072D9F00C46BAD /* Sources */,
+				CCB431291C072D9F00C46BAD /* Frameworks */,
+				CCB4312A1C072D9F00C46BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCB4312E1C072D9F00C46BAD /* PBXTargetDependency */,
+			);
+			name = "自定义TabBarTests";
+			productName = "自定义TabBarTests";
+			productReference = CCB4312C1C072D9F00C46BAD /* 自定义TabBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCB4310B1C072D9F00C46BAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = hnqingyun.com;
+				TargetAttributes = {
+					CCB431121C072D9F00C46BAD = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CCB4312B1C072D9F00C46BAD = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CCB431121C072D9F00C46BAD;
+					};
+				};
+			};
+			buildConfigurationList = CCB4310E1C072D9F00C46BAD /* Build configuration list for PBXProject "自定义TabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCB4310A1C072D9F00C46BAD;
+			productRefGroup = CCB431141C072D9F00C46BAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCB431121C072D9F00C46BAD /* 自定义TabBar */,
+				CCB4312B1C072D9F00C46BAD /* 自定义TabBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCB431111C072D9F00C46BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB431221C072D9F00C46BAD /* Main.storyboard in Resources */,
+				CCB431521C0735C500C46BAD /* 4@2x.png in Resources */,
+				CC5764F71C073AFB003089F0 /* back.png in Resources */,
+				CCB431581C0735C500C46BAD /* searchIconHighlighted@2x.png in Resources */,
+				CCB431541C0735C500C46BAD /* favoritesIconHighlighted@2x.png in Resources */,
+				CCB4314F1C0735C500C46BAD /* 1@2x.png in Resources */,
+				CCB431501C0735C500C46BAD /* 2@2x.png in Resources */,
+				CCB431531C0735C500C46BAD /* favoritesIcon@2x.png in Resources */,
+				CCB431271C072D9F00C46BAD /* LaunchScreen.xib in Resources */,
+				CCB431551C0735C500C46BAD /* hightabButtonBackground.png in Resources */,
+				CCB4315B1C0735C500C46BAD /* timelineIconHighlighted@2x.png in Resources */,
+				CCB431511C0735C500C46BAD /* 3@2x.png in Resources */,
+				CCB431561C0735C500C46BAD /* mentionsIconHighlighted@2x.png in Resources */,
+				CCB431241C072D9F00C46BAD /* Images.xcassets in Resources */,
+				CCB4315A1C0735C500C46BAD /* tabButtonBackground.png in Resources */,
+				CCB431591C0735C500C46BAD /* tabBarNotificationLightOn.png in Resources */,
+				CCB431571C0735C500C46BAD /* messagesIconHighlighted@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB4312A1C072D9F00C46BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCB4310F1C072D9F00C46BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB4311F1C072D9F00C46BAD /* ViewController.m in Sources */,
+				CCB4313E1C072E0F00C46BAD /* QYTabBarController.m in Sources */,
+				CCB4311C1C072D9F00C46BAD /* AppDelegate.m in Sources */,
+				CCB431191C072D9F00C46BAD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB431281C072D9F00C46BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB431331C072D9F00C46BAD /* ___TabBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCB4312E1C072D9F00C46BAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCB431121C072D9F00C46BAD /* 自定义TabBar */;
+			targetProxy = CCB4312D1C072D9F00C46BAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCB431201C072D9F00C46BAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB431211C072D9F00C46BAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCB431251C072D9F00C46BAD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB431261C072D9F00C46BAD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCB431341C072D9F00C46BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCB431351C072D9F00C46BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCB431371C072D9F00C46BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义TabBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCB431381C072D9F00C46BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义TabBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCB4313A1C072D9F00C46BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "自定义TabBarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义TabBar.app/自定义TabBar";
+			};
+			name = Debug;
+		};
+		CCB4313B1C072D9F00C46BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "自定义TabBarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义TabBar.app/自定义TabBar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCB4310E1C072D9F00C46BAD /* Build configuration list for PBXProject "自定义TabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB431341C072D9F00C46BAD /* Debug */,
+				CCB431351C072D9F00C46BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB431361C072D9F00C46BAD /* Build configuration list for PBXNativeTarget "自定义TabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB431371C072D9F00C46BAD /* Debug */,
+				CCB431381C072D9F00C46BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB431391C072D9F00C46BAD /* Build configuration list for PBXNativeTarget "自定义TabBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB4313A1C072D9F00C46BAD /* Debug */,
+				CCB4313B1C072D9F00C46BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCB4310B1C072D9F00C46BAD /* Project object */;
+}
